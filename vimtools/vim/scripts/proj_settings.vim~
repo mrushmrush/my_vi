@@ -1,0 +1,2 @@
+:set tags=./tags,/home/marrush/SourceSdk-1202-123/tags,/usr/src/linux/tags
+:cs add /home/marrush/SourceSdk-1202-123/cscope.out

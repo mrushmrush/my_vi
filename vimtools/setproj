@@ -1,0 +1,61 @@
+#!/bin/sh
+
+
+#if [ "$#" -eq 1 ] && [ "$1"=="help" ]
+#then
+#    echo "$0 help"
+#    echo "$0 clean  #finds and removes all vimtagfiles and cscope files from tree"
+#    echo "$0        #executes 'dirtag' throughout the tree and collects cscope information"
+#    exit 0
+#fi
+
+
+echo "Setting up all tags"
+#set up all tags
+
+find . -name vimtagfile | xargs rm -f
+
+if [ "$#" -eq 1 ] && [ "$1"=="clean" ]
+then
+    rm -f cscope*
+    echo "Cleaned"
+    exit 0
+fi
+
+find . -type d -exec ./dirtags {} \;
+#couldn't figure out how to prune the .git directory from previous 'find', so..
+echo "Pruning extraneous tagfiles"
+find .git -name vimtagfile | xargs rm -f
+find .svn -name vimtagfile | xargs rm -f
+find Debug -name vimtagfile | xargs rm -f
+find Release -name vimtagfile | xargs rm -f
+find DOCS -name vimtagfile | xargs rm -f
+
+ctags -Rf vimtagfile
+
+#set up cscope
+echo "Setting up cscope databases"
+rm -f cscope*
+PROJ_DIR=`pwd`
+find $PROJ_DIR/ -name \*.[ch] > cscope.files
+cscope -b -k -q
+
+echo "Setting up Project variables"
+
+#Get rid of old stuff
+rm -f  ~/vim/scripts/proj_settings.vim
+
+#add ctags settings
+echo ":set tags=./vimtagfile,$PROJ_DIR/vimtagfile,/usr/src/linux/vimtagfile" > ~/vim/scripts/proj_settings.vim
+
+#add cscope settings
+echo ":cs add $PROJ_DIR/cscope.out" >> ~/vim/scripts/proj_settings.vim
+
+#####
+echo "Done"
+exit 0
+
+
+
+
+

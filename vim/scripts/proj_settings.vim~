@@ -1,0 +1,2 @@
+:set tags=./vimtagfile,/mnt/hgfs/SharedWithGuestVM/hdsfirmware/Src/vimtagfile,/usr/src/linux/vimtagfile
+:cs add /mnt/hgfs/SharedWithGuestVM/hdsfirmware/Src/cscope.out
