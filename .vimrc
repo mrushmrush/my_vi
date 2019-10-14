@@ -77,11 +77,4 @@ colo oceanlight
 
 syntax on
 
-set makeprg=arm-linux-gnueabihf-gcc\ -g3\ -pthread\ -lm\ -I../spirio2.0_common\ -o\ ~/spirio2/application/bin/%<\ %
-
-nmap ,b :make | vert copen
-nmap ,m :!scp ~/spirio2/application/bin/%< root@192.168.8.8:/usr/local/bin/. && scp ~/spirio2/application/% root@192.168.8.8:./test/. && sh -c 'ssh root@192.168.8.8'
-
-"if we want to build on target
-nmap ,x :!scp `pwd`/% root@192.168.8.8:./test/. && sh -c 'ssh root@192.168.8.8'
 
