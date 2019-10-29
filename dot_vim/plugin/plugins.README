@@ -1,0 +1,8 @@
+
+
+:set runtimepath?
+:set runtimepath^=~/.vim/plugin/yournewplugin.vim
+:source ~/.vimrc
+
+
+
