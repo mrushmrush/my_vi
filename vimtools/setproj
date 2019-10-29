@@ -43,13 +43,13 @@ cscope -b -k -q
 echo "Setting up Project variables"
 
 #Get rid of old stuff
-rm -f  ~/vim/scripts/proj_settings.vim
+rm -f  ~/vimtools/vim/scripts/proj_settings.vim
 
 #add ctags settings
-echo ":set tags=./vimtagfile,$PROJ_DIR/vimtagfile,/usr/src/linux/vimtagfile" > ~/vim/scripts/proj_settings.vim
+echo ":set tags=./vimtagfile,$PROJ_DIR/vimtagfile,/usr/src/linux/vimtagfile" > ~/vimtools/vim/scripts/proj_settings.vim
 
 #add cscope settings
-echo ":cs add $PROJ_DIR/cscope.out" >> ~/vim/scripts/proj_settings.vim
+echo ":cs add $PROJ_DIR/cscope.out" >> ~/vimtools/vim/scripts/proj_settings.vim
 
 #####
 echo "Done"
