@@ -54,21 +54,21 @@ nmap <S-H> <C-W>h
 "nmap <S-k> <C-W>k
 
 "Tag list command from http://http://vim.sourceforge.net/scripts/
-source ~/vim/scripts/taglist.vim
+source ~/vimtools/vim/scripts/taglist.vim
 "Hierarchical tag files from http://ctags.sourceforge.net/faq.html#15
 "rebuild tagfile local to current source file
 nmap ,t :!(cd %:p:h;ctags -f vimtagfile *.[ch])&
 "now, to read local tagfile first, then global
-"set tags=./tags,tags,~/project/tags ..this is done in vim/scripts/project_settings.vim
+"set tags=./tags,tags,~/project/tags ..this is done in vimtools/vim/scripts/project_settings.vim
 
 "Use this for commenting out blocks
 nmap ,c :s/^/\/\/<CR><CR>:noh<CR>
 
 "Mapping for use with cscope
-source ~/vim/scripts/cscope_maps.vim
+source ~/vimtools/vim/scripts/cscope_maps.vim
 
 "Finally, source the settings for current project
-source ~/vim/scripts/proj_settings.vim
+source ~/vimtools/vim/scripts/proj_settings.vim
 
 "Tools to aid in debugging color scheme
 " Identify highlight group under cursor
