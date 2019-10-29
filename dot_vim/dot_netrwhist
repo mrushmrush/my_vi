@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/mrush/fusion2/build'
+let g:netrw_dirhist_2='/home/mrush/fusion2/meta-fusion2'
+let g:netrw_dirhist_3='/home/mrush/fusion2/meta-fusion2/recipes-app-layer/common_lib'
+let g:netrw_dirhist_4='/home/mrush/fusion2/meta-fusion2/recipes-app-layer/usecase-mgr'

@@ -36,8 +36,6 @@ set showcmd
 set nowrap
 set cino-={2
 
-:highlight Search ctermfg=0 ctermbg=3
-
 "Indentation settings
 "set autoindent
 set cindent
@@ -72,9 +70,15 @@ source ~/vim/scripts/cscope_maps.vim
 "Finally, source the settings for current project
 source ~/vim/scripts/proj_settings.vim
 
-"Use the following color scheme
-colo oceanlight
+"Tools to aid in debugging color scheme
+" Identify highlight group under cursor
+map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<' . synIDattr(synID(line("."),col("."),0),"name") . "> lo<" . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
 
+set t_Co=256
 syntax on
+
+"Use the following color scheme
+colo mrushdark
+
 
 
