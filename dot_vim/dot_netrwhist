@@ -1,6 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/mrush/fusion2/build'
-let g:netrw_dirhist_2='/home/mrush/fusion2/meta-fusion2'
-let g:netrw_dirhist_3='/home/mrush/fusion2/meta-fusion2/recipes-app-layer/common_lib'
-let g:netrw_dirhist_4='/home/mrush/fusion2/meta-fusion2/recipes-app-layer/usecase-mgr'
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/mrush/my_vi'
+let g:netrw_dirhist_6='/home/mrush'
+let g:netrw_dirhist_5='/home/mrush/my_vi'
+let g:netrw_dirhist_4='/home/mrush'
+let g:netrw_dirhist_3='/home/mrush/vimtools'
+let g:netrw_dirhist_2='/home/mrush/vimtools/vim'
+let g:netrw_dirhist_1='/home/mrush/vimtools'

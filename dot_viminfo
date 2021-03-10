@@ -11,217 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/White
+~Msle0~/\<FLAG_STOP_PROCESS\>
 
 # Last Substitute Search Pattern:
-~MSle0&^\S
+~MSle0&ew
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:qa
-|2,0,1572314477,,"qa"
-:VXtermColorTable
-|2,0,1572314427,,"VXtermColorTable"
-:w
-|2,0,1572314243,,"w"
-:e ~/.vim/after/syntax/c.vim
-|2,0,1572314234,,"e ~/.vim/after/syntax/c.vim"
-:vs ~/.vim/colors/mrushdark.vim
-|2,0,1572314144,,"vs ~/.vim/colors/mrushdark.vim"
-:colo
-|2,0,1572313674,,"colo"
 :wqa
-|2,0,1572307514,,"wqa"
-:vs ~/.vim/after/syntax/c.vim
-|2,0,1572300153,,"vs ~/.vim/after/syntax/c.vim"
-:hi myType ctermfg=White
-|2,0,1572299647,,"hi myType ctermfg=White"
-:syn match myType '\<w.*_t'
-|2,0,1572299614,,"syn match myType '\\<w.*_t'"
-:syn match myType '<w.*_t'
-|2,0,1572299567,,"syn match myType '<w.*_t'"
-:syn match myType '<w_t'
-|2,0,1572299521,,"syn match myType '<w_t'"
-:syn myType match '<w_t'
-|2,0,1572299504,,"syn myType match '<w_t'"
-:vs /usr/local/share/vim/vim81/colors/mrushdark.vim
-|2,0,1572299382,,"vs /usr/local/share/vim/vim81/colors/mrushdark.vim"
-:q!
-|2,0,1572299323,,"q!"
-:ws
-|2,0,1572299281,,"ws"
-:vs /usr/local/share/vim/vim81/syntax/c.vim
-|2,0,1572298744,,"vs /usr/local/share/vim/vim81/syntax/c.vim"
+|2,0,1615390674,,"wqa"
+:qa
+|2,0,1615289454,,"qa"
+:w
+|2,0,1602633614,,"w"
+:e ../supervisor/spirio20app.c
+|2,0,1601125631,,"e ../supervisor/spirio20app.c"
+:e makefile
+|2,0,1601124751,,"e makefile"
+:e ../common_inc/lxp_types.h
+|2,0,1600956385,,"e ../common_inc/lxp_types.h"
+:e ../common_inc/spirio2.0_common.h
+|2,0,1600956032,,"e ../common_inc/spirio2.0_common.h"
+:vs ../common_inc/lxp_types.h
+|2,0,1600955988,,"vs ../common_inc/lxp_types.h"
+:vs lx_stream_hndlr.h
+|2,0,1600809632,,"vs lx_stream_hndlr.h"
+:e options.c
+|2,0,1600787831,,"e options.c"
+:vs supervisor.h
+|2,0,1600373070,,"vs supervisor.h"
+:wq
+|2,0,1598273849,,"wq"
+:vs ~/projects/fusion2/build/conf/local.conf
+|2,0,1596554254,,"vs ~/projects/fusion2/build/conf/local.conf"
+:wa
+|2,0,1595430627,,"wa"
+:e fusion_workarea_utils.c
+|2,0,1595429126,,"e fusion_workarea_utils.c"
 :vs gtk_thread.c
-|2,0,1572298547,,"vs gtk_thread.c"
-:vs ~/.vimrc
-|2,0,1572292305,,"vs ~/.vimrc"
-:syn match myTypes display "\< \w_t\>"
-|2,0,1572291524,,"syn match myTypes display \"\\< \\w_t\\>\""
-:hi myTypes ctermfg=White
-|2,0,1572291484,,"hi myTypes ctermfg=White"
-:syn match myTypes display "\<\w_t\>"
-|2,0,1572291468,,"syn match myTypes display \"\\<\\w_t\\>\""
-:w!
-|2,0,1572291439,,"w!"
-:vs automate_cm3_emmc_format.sh
-|2,0,1571278149,,"vs automate_cm3_emmc_format.sh"
-:vs make_mount_cm3_loop_image.sh
-|2,0,1571272884,,"vs make_mount_cm3_loop_image.sh"
-:sp copy_boot.sh
-|2,0,1571271387,,"sp copy_boot.sh"
-:vs make_sdcard_image.sh
-|2,0,1571271061,,"vs make_sdcard_image.sh"
-:colo mrushdark
-|2,0,1571259812,,"colo mrushdark"
-:sp /usr/local/share/vim/vim81/colors/mrushdark.vim
-|2,0,1571259548,,"sp /usr/local/share/vim/vim81/colors/mrushdark.vim"
-:XXtermColorTable
-|2,0,1571259390,,"XXtermColorTable"
-:h XtermColorTable
-|2,0,1571259362,,"h XtermColorTable"
+|2,0,1595427084,,"vs gtk_thread.c"
+:e gtk_thread.c
+|2,0,1595426964,,"e gtk_thread.c"
+:e backlight_ctlr_thd.c
+|2,0,1595366743,,"e backlight_ctlr_thd.c"
+:vs display_mgr.c
+|2,0,1595361271,,"vs display_mgr.c"
+:cs find s changed
+|2,0,1595361164,,"cs find s changed"
+:cs find c changed
+|2,0,1595361158,,"cs find c changed"
+:401
+|2,0,1595360114,,"401"
+:e /home/mrush/projects/spirio/application/spirio_settings_lib/src/spirio_env.c
+|2,0,1595276972,,"e /home/mrush/projects/spirio/application/spirio_settings_lib/src/spirio_env.c"
+:ls
+|2,0,1595276783,,"ls"
+:e ../common_lib/fusion2-env.h
+|2,0,1595274940,,"e ../common_lib/fusion2-env.h"
+:e ../common_lib/fusion2-env.c
+|2,0,1595274193,,"e ../common_lib/fusion2-env.c"
+:cs find f #include
+|2,0,1595269853,,"cs find f #include"
+:e supervisor.c
+|2,0,1594990221,,"e supervisor.c"
+:vs ../../meta-fusion2/recipes-app-layer/common_lib/common-lib.bb
+|2,0,1594922744,,"vs ../../meta-fusion2/recipes-app-layer/common_lib/common-lib.bb"
+:682
+|2,0,1594851740,,"682"
+:e ../supervisor/supervisor.c
+|2,0,1594851731,,"e ../supervisor/supervisor.c"
+:964
+|2,0,1594851563,,"964"
+:vs fusion2-env.h
+|2,0,1594850985,,"vs fusion2-env.h"
+:310
+|2,0,1594850536,,"310"
+:e ../../meta-fusion2/recipes-app-layer/common_lib/common-lib.bb
+|2,0,1594850443,,"e ../../meta-fusion2/recipes-app-layer/common_lib/common-lib.bb"
+:e fusion2-env.c
+|2,0,1594846794,,"e fusion2-env.c"
+:e ../etc/fusion.cfg
+|2,0,1594829064,,"e ../etc/fusion.cfg"
+:e ~/projects/spirio/application/spirio_settings_lib/src/spirio_env.c
+|2,0,1594752564,,"e ~/projects/spirio/application/spirio_settings_lib/src/spirio_env.c"
+:e shared_mutex.h
+|2,0,1594688811,,"e shared_mutex.h"
+:vs fusion2-env.c
+|2,0,1594688719,,"vs fusion2-env.c"
 :q
-|2,0,1571259343,,"q"
-:XtermColorTable
-|2,0,1571259337,,"XtermColorTable"
-:SXtermColorTable
-|2,0,1571259315,,"SXtermColorTable"
-:source ~/.vimrc
-|2,0,1571259286,,"source ~/.vimrc"
-:f
-|2,0,1571259267,,"f"
-:syn clear
-|2,0,1571245004,,"syn clear"
-:e ~/.vimrc
-|2,0,1571244290,,"e ~/.vimrc"
-:syn match myTypes "\<_t\>"
-|2,0,1571242975,,"syn match myTypes \"\\<_t\\>\""
-:e /usr/local/share/vim/vim81/syntax/c.vim
-|2,0,1571171732,,"e /usr/local/share/vim/vim81/syntax/c.vim"
-:set runtimepath?
-|2,0,1571153607,,"set runtimepath?"
-:runtimepath?
-|2,0,1571153600,,"runtimepath?"
-:syntax
-|2,0,1571153509,,"syntax"
-:syn
-|2,0,1571153153,,"syn"
-:h syntax
-|2,0,1571152914,,"h syntax"
-:set statusline?
-|2,0,1571152074,,"set statusline?"
-:e ~/.vim/plugin/plugins.README
-|2,0,1571150904,,"e ~/.vim/plugin/plugins.README"
-:e ~/.vim/plugin/XtermColorTable.README
-|2,0,1571150603,,"e ~/.vim/plugin/XtermColorTable.README"
-:colorscheme delek
-|2,0,1571149758,,"colorscheme delek"
-:co delek
-|2,0,1571149740,,"co delek"
+|2,0,1594213080,,"q"
+:vs ../etc/wpa_supplicant.conf
+|2,0,1594213024,,"vs ../etc/wpa_supplicant.conf"
+:vs ../../meta-fusion2/images/fusion2-image.bb
+|2,0,1594135245,,"vs ../../meta-fusion2/images/fusion2-image.bb"
+:cs find c message_received_good
+|2,0,1593025311,,"cs find c message_received_good"
+:vs calibration_window_utilities.c
+|2,0,1592937405,,"vs calibration_window_utilities.c"
+:e ../../meta-fusion2/images/fusion2-image.bb
+|2,0,1592424895,,"e ../../meta-fusion2/images/fusion2-image.bb"
+:e ../../meta-fusion2/recipes-app-layer/display-mgr/display-mgr.bb
+|2,0,1592424851,,"e ../../meta-fusion2/recipes-app-layer/display-mgr/display-mgr.bb"
+:e calibration_window_utilities.c
+|2,0,1592423878,,"e calibration_window_utilities.c"
+:cs find c create_time_entry_window
+|2,0,1592421673,,"cs find c create_time_entry_window"
+:e time_entry_window_utilities.c
+|2,0,1592421654,,"e time_entry_window_utilities.c"
 
 # Search String History (newest to oldest):
-?/White
-|2,1,1572314273,47,"White"
-?/l;kj
-|2,1,1572300108,47,"l;kj"
-?/lj
-|2,1,1572299810,47,"lj"
-? \<widget_pointers_t\>
-|2,1,1572299807,,"\\<widget_pointers_t\\>"
-?/\<w.*_t
-|2,1,1572299600,47,"\\<w.*_t"
-?/<w.*_t
-|2,1,1572299581,47,"<w.*_t"
-?/<w_t
-|2,1,1572299554,47,"<w_t"
-?/Include
-|2,1,1572298793,47,"Include"
-?/Type
-|2,1,1572298761,47,"Type"
-?/X
-|2,1,1572292314,47,"X"
-? \<SFDISK_CMD\>
-|2,1,1572016392,,"\\<SFDISK_CMD\\>"
-?/spir
-|2,1,1571672031,47,"spir"
-?/pian
-|2,1,1571670486,47,"pian"
-?/spirio
-|2,1,1571670213,47,"spirio"
+? \<FLAG_STOP_PROCESS\>
+|2,1,1602633561,,"\\<FLAG_STOP_PROCESS\\>"
+? \<STOP_SUPERVISOR\>
+|2,1,1602633118,,"\\<STOP_SUPERVISOR\\>"
+?/cond_wa
+|2,1,1602633086,47,"cond_wa"
+?/cond_
+|2,1,1602434036,47,"cond_"
+?/HEADERS
+|2,1,1601124763,47,"HEADERS"
+?/bool
+|2,1,1601065189,47,"bool"
+? \<insert_event\>
+|2,1,1600959641,,"\\<insert_event\\>"
+? \<perfQ_mutex\>
+|2,1,1600959569,,"\\<perfQ_mutex\\>"
+?/perfQ
+|2,1,1600958406,47,"perfQ"
+?/main
+|2,1,1600958378,47,"main"
+? \<perfQ_head\>
+|2,1,1600957039,,"\\<perfQ_head\\>"
+? \<lxs_event\>
+|2,1,1600956068,,"\\<lxs_event\\>"
+? \<perfQ\>
+|2,1,1600955930,,"\\<perfQ\\>"
+? \<lxs_event_t\>
+|2,1,1600809550,,"\\<lxs_event_t\\>"
+?/open
+|2,1,1600794922,47,"open"
+?/access
+|2,1,1600794712,47,"access"
+?/DE
+|2,1,1600286996,47,"DE"
+?/tty
+|2,1,1600286988,47,"tty"
+?/q
+|2,1,1600074195,47,"q"
+?/syntax
+|2,1,1600073330,47,"syntax"
+?/1ly
+|2,1,1596042808,47,"1ly"
+?/change_sidebox_value
+|2,1,1595429434,47,"change_sidebox_value"
+? \<drawingarea_levels\>
+|2,1,1595429364,,"\\<drawingarea_levels\\>"
+?/gtk_widget_queue_draw_area
+|2,1,1595429108,47,"gtk_widget_queue_draw_area"
+? \<sidebox_4_x\>
+|2,1,1595428063,,"\\<sidebox_4_x\\>"
+? \<temperature_chamber1_p2\>
+|2,1,1595427318,,"\\<temperature_chamber1_p2\\>"
+?/levels
+|2,1,1595427093,47,"levels"
+?/home
+|2,1,1595426986,47,"home"
+? \<levels_work_area_surface\>
+|2,1,1595368573,,"\\<levels_work_area_surface\\>"
+? \<drawingarea_levels_configure_event_cb\>
+|2,1,1595368006,,"\\<drawingarea_levels_configure_event_cb\\>"
+? \<drawingarea_levels_draw_cb\>
+|2,1,1595367957,,"\\<drawingarea_levels_draw_cb\\>"
+? \<home_work_area_surface\>
+|2,1,1595367831,,"\\<home_work_area_surface\\>"
+?/set_color
+|2,1,1595366901,47,"set_color"
+?/set_state
+|2,1,1595366857,47,"set_state"
+? \<create_calibration_window\>
+|2,1,1595366452,,"\\<create_calibration_window\\>"
+?/idle
+|2,1,1595366435,47,"idle"
+? \<set_color\>
+|2,1,1595366203,,"\\<set_color\\>"
+?/\calarms
+|2,1,1595361062,47,"\\calarms"
+?/set_
+|2,1,1595366280,47,"set_"
+? \<continue_receive\>
+|2,1,1595359872,,"\\<continue_receive\\>"
+?/Timed out
+|2,1,1595357370,47,"Timed out"
+?/timed_out
+|2,1,1595357357,47,"timed_out"
+?/timeout
+|2,1,1595355857,47,"timeout"
+? \<syslog\>
+|2,1,1595292090,,"\\<syslog\\>"
 ?/spi
-|2,1,1571670154,47,"spi"
-?/lkj
-|2,1,1571400245,47,"lkj"
-?/ 
-|2,1,1571399853,47," "
-? \<media\>
-|2,1,1571272943,,"\\<media\\>"
-?/TARGET
-|2,1,1571272848,47,"TARGET"
-?/match
-|2,1,1571244065,47,"match"
-?/i/
-|2,1,1571241415,47,"i/"
-? \<cBadContinuation\>
-|2,1,1571240289,,"\\<cBadContinuation\\>"
-?/Match
-|2,1,1571240102,47,"Match"
-?/contains
-|2,1,1571238922,47,"contains"
-? \<cType\>
-|2,1,1571238873,,"\\<cType\\>"
-? \<Ctype\>
-|2,1,1571238850,,"\\<Ctype\\>"
-?/	
-|2,1,1571238474,47,"	"
-?/Included
-|2,1,1571237878,47,"Included"
-?/Comment
-|2,1,1571171792,47,"Comment"
-? \<85\>
-|2,1,1571150133,,"\\<85\\>"
-? \<Black\>
-|2,1,1571150098,,"\\<Black\\>"
-? \<Red\>
-|2,1,1571150079,,"\\<Red\\>"
-? \<bg\>
-|2,1,1571149633,,"\\<bg\\>"
-?/sta
-|2,1,1571145173,47,"sta"
-? \<int\>
-|2,1,1571145131,,"\\<int\\>"
-? \<Normal\>
-|2,1,1571141846,,"\\<Normal\\>"
-? \<cSpecial\>
-|2,1,1571170789,,"\\<cSpecial\\>"
-? \<keyword\>
-|2,1,1571170650,,"\\<keyword\\>"
-?/Normal
-|2,1,1571104918,47,"Normal"
-?/hi
-|2,1,1571104402,47,"hi"
-? \<highlight\>
-|2,1,1571102419,,"\\<highlight\\>"
-?/Special
-|2,1,1571102281,47,"Special"
-?/source
-|2,1,1571078934,47,"source"
-?/if
-|2,1,1571078600,47,"if"
-? \<syntax\>
-|2,1,1571078581,,"\\<syntax\\>"
-? \<CNTL_BD_SERIAL_WRITE_GPIO\>
-|2,1,0,,"\\<CNTL_BD_SERIAL_WRITE_GPIO\\>"
-? \<4\>
-|2,1,0,,"\\<4\\>"
-? \<BB_SERIAL_READ_PIN\>
-|2,1,0,,"\\<BB_SERIAL_READ_PIN\\>"
-?/\cbb
-|2,1,0,47,"\\cbb"
-? \<gpiod\>
-|2,1,0,,"\\<gpiod\\>"
+|2,1,1595292038,47,"spi"
+? \<state_mutex\>
+|2,1,1595269034,,"\\<state_mutex\\>"
+? \<settings_mutex\>
+|2,1,1595268920,,"\\<settings_mutex\\>"
+? \<SETTINGS_SHM_NAME\>
+|2,1,1595013947,,"\\<SETTINGS_SHM_NAME\\>"
+? \<mutex\>
+|2,1,1595013924,,"\\<mutex\\>"
+?/reate_
+|2,1,1594990395,47,"reate_"
 
 # Expression History (newest to oldest):
 
@@ -231,1048 +231,877 @@ $
 
 # Registers:
 "0	LINE	0
-	syn match myTypes display "\<\w_t\>"
-	hi myTypes ctermfg=White
-|3,0,0,1,2,0,1572299392,"syn match myTypes display \"\\<\\w_t\\>\"","hi myTypes ctermfg=White"
+	                clock_gettime (CLOCK_MONOTONIC, &timeout);
+	                timeout.tv_sec += config_vars.mainloop_timeout;
+|3,0,0,1,2,0,1602633586,"                clock_gettime (CLOCK_MONOTONIC, &timeout);","                timeout.tv_sec += config_vars.mainloop_timeout;"
 "1	LINE	0
-	
-|3,0,1,1,1,0,1572313913,""
+	1ly&wybamt
+|3,0,1,1,1,0,1596042812,"1ly&wybamt"
 "2	LINE	0
-	hi myTypes ctermfg=White
-|3,0,2,1,1,0,1572313912,"hi myTypes ctermfg=White"
+	bitbake fusion2-image1ly&wybamt
+|3,0,2,1,1,0,1596042809,"bitbake fusion2-image1ly&wybamt"
 "3	LINE	0
-	syn match myTypes display "\<\w_t\>"
-|3,0,3,1,1,0,1572313912,"syn match myTypes display \"\\<\\w_t\\>\""
+	    LOGGER_WRITE (LOG_DEBUG, "10");
+|3,0,3,1,1,0,1595429387,"    LOGGER_WRITE (LOG_DEBUG, \"10\");"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1572299268,""
+	    LOGGER_WRITE (LOG_DEBUG, "9");
+|3,0,4,1,1,0,1595429387,"    LOGGER_WRITE (LOG_DEBUG, \"9\");"
 "5	LINE	0
-	syn match myTypes display "\<\w_t\>"
-	hi myTypes ctermfg=White
-	
-|3,0,5,1,3,0,1572299261,"syn match myTypes display \"\\<\\w_t\\>\"","hi myTypes ctermfg=White",""
+	    LOGGER_WRITE (LOG_DEBUG, "8");
+|3,0,5,1,1,0,1595429386,"    LOGGER_WRITE (LOG_DEBUG, \"8\");"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1572291048,""
+	    LOGGER_WRITE (LOG_DEBUG, "7");
+|3,0,6,1,1,0,1595429385,"    LOGGER_WRITE (LOG_DEBUG, \"7\");"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1572291045,""
+	    LOGGER_WRITE (LOG_DEBUG, "5");
+|3,0,7,1,1,0,1595429381,"    LOGGER_WRITE (LOG_DEBUG, \"5\");"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1572291045,""
+	    LOGGER_WRITE (LOG_DEBUG, "4");
+|3,0,8,1,1,0,1595429381,"    LOGGER_WRITE (LOG_DEBUG, \"4\");"
 "9	LINE	0
-	UsePAM yes
-|3,0,9,1,1,0,1571747677,"UsePAM yes"
+	    LOGGER_WRITE (LOG_DEBUG, "3");
+|3,0,9,1,1,0,1595429380,"    LOGGER_WRITE (LOG_DEBUG, \"3\");"
+"q	CHAR	0
+	€ýa
+|3,0,26,0,1,0,1583875684,"€ýa"
 ""-	CHAR	0
-	White
-|3,1,36,0,1,0,1572314239,"White"
+	_
+|3,1,36,0,1,0,1615390629,"_"
 
 # File marks:
-'A  630  44  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,65,630,44,0,"~/fusion2/application/display_mgr/gtk_thread.c"
-'0  44  71  ~/fusion2/application/display_mgr/__XtermColorTable__
-|4,48,44,71,1572314477,"~/fusion2/application/display_mgr/__XtermColorTable__"
-'1  45  0  ~/fusion2/application/display_mgr/__XtermColorTable__
-|4,49,45,0,1572314399,"~/fusion2/application/display_mgr/__XtermColorTable__"
-'2  1  0  ~/fusion2/application/display_mgr/__XtermColorTable__
-|4,50,1,0,1572314399,"~/fusion2/application/display_mgr/__XtermColorTable__"
-'3  207  34  ~/.vim/colors/mrushdark.vim
-|4,51,207,34,1572314088,"~/.vim/colors/mrushdark.vim"
-'4  207  34  ~/.vim/colors/mrushdark.vim
-|4,52,207,34,1572314088,"~/.vim/colors/mrushdark.vim"
-'5  375  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,53,375,0,1572310702,"~/fusion2/application/display_mgr/gtk_thread.c"
-'6  375  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,54,375,0,1572310702,"~/fusion2/application/display_mgr/gtk_thread.c"
-'7  375  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,55,375,0,1572310702,"~/fusion2/application/display_mgr/gtk_thread.c"
-'8  375  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,56,375,0,1572310702,"~/fusion2/application/display_mgr/gtk_thread.c"
-'9  375  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,57,375,0,1572310702,"~/fusion2/application/display_mgr/gtk_thread.c"
+'A  873  0  ~/fusion2/application/display_mgr/gtk_thread.c
+|4,65,873,0,1573059081,"~/fusion2/application/display_mgr/gtk_thread.c"
+'0  7  6  ~/my_vi/update_repo_from_home.sh
+|4,48,7,6,1615390674,"~/my_vi/update_repo_from_home.sh"
+'1  1  0  ~/projects/fusion2/meta-fusion2/conf/layer.conf
+|4,49,1,0,1615289454,"~/projects/fusion2/meta-fusion2/conf/layer.conf"
+'2  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,50,1,0,1615289251,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+'3  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,51,1,0,1615288859,"~/projects/fusion2/build/conf/bblayers.conf"
+'4  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,52,1,0,1614819052,"~/projects/fusion2/build/conf/bblayers.conf"
+'5  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,53,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+'6  62  0  ~/.bashrc
+|4,54,62,0,1614029695,"~/.bashrc"
+'7  170  0  ~/projects/fusion2/application/supervisor/supervisor.c
+|4,55,170,0,1609960194,"~/projects/fusion2/application/supervisor/supervisor.c"
+'8  538  31  ~/projects/fusion2/application/display_mgr/display_mgr.c
+|4,56,538,31,1607366651,"~/projects/fusion2/application/display_mgr/display_mgr.c"
+'9  586  16  ~/projects/fusion2/application/supervisor/supervisor.c
+|4,57,586,16,1602633522,"~/projects/fusion2/application/supervisor/supervisor.c"
 
 # Jumplist (newest first):
--'  44  71  ~/fusion2/application/display_mgr/__XtermColorTable__
-|4,39,44,71,1572314477,"~/fusion2/application/display_mgr/__XtermColorTable__"
--'  69  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,69,0,1572314427,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  1  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,1,0,1572314402,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  45  0  ~/fusion2/application/display_mgr/__XtermColorTable__
-|4,39,45,0,1572314399,"~/fusion2/application/display_mgr/__XtermColorTable__"
--'  1  0  ~/fusion2/application/display_mgr/__XtermColorTable__
-|4,39,1,0,1572314399,"~/fusion2/application/display_mgr/__XtermColorTable__"
--'  55  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,55,0,1572314133,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  55  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,55,0,1572314133,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  1  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,1,0,1572314095,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  207  34  ~/.vim/colors/mrushdark.vim
-|4,39,207,34,1572314088,"~/.vim/colors/mrushdark.vim"
--'  207  34  ~/.vim/colors/mrushdark.vim
-|4,39,207,34,1572314088,"~/.vim/colors/mrushdark.vim"
--'  207  34  ~/.vim/colors/mrushdark.vim
-|4,39,207,34,1572314088,"~/.vim/colors/mrushdark.vim"
--'  207  34  ~/.vim/colors/mrushdark.vim
-|4,39,207,34,1572314088,"~/.vim/colors/mrushdark.vim"
--'  133  0  ~/fusion2/application/display_mgr/__XtermColorTable__
-|4,39,133,0,1572313886,"~/fusion2/application/display_mgr/__XtermColorTable__"
--'  89  0  ~/fusion2/application/display_mgr/__XtermColorTable__
-|4,39,89,0,1572313886,"~/fusion2/application/display_mgr/__XtermColorTable__"
--'  89  0  ~/fusion2/application/display_mgr/__XtermColorTable__
-|4,39,89,0,1572313886,"~/fusion2/application/display_mgr/__XtermColorTable__"
--'  45  0  ~/fusion2/application/display_mgr/__XtermColorTable__
-|4,39,45,0,1572313886,"~/fusion2/application/display_mgr/__XtermColorTable__"
--'  1  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,1,0,1572313822,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  375  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,375,0,1572310702,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  375  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,375,0,1572310702,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  375  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,375,0,1572310702,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  375  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,375,0,1572310702,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  1  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,1,0,1572307517,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  2  31  ~/.vim/after/syntax/c.vim
-|4,39,2,31,1572307514,"~/.vim/after/syntax/c.vim"
--'  2  31  ~/.vim/after/syntax/c.vim
-|4,39,2,31,1572307514,"~/.vim/after/syntax/c.vim"
--'  2  31  ~/.vim/after/syntax/c.vim
-|4,39,2,31,1572307514,"~/.vim/after/syntax/c.vim"
--'  2  31  ~/.vim/after/syntax/c.vim
-|4,39,2,31,1572307514,"~/.vim/after/syntax/c.vim"
--'  2  31  ~/.vim/after/syntax/c.vim
-|4,39,2,31,1572307514,"~/.vim/after/syntax/c.vim"
--'  2  31  ~/.vim/after/syntax/c.vim
-|4,39,2,31,1572307514,"~/.vim/after/syntax/c.vim"
--'  2  31  ~/.vim/after/syntax/c.vim
-|4,39,2,31,1572307514,"~/.vim/after/syntax/c.vim"
--'  2  31  ~/.vim/after/syntax/c.vim
-|4,39,2,31,1572307514,"~/.vim/after/syntax/c.vim"
--'  2  31  ~/.vim/after/syntax/c.vim
-|4,39,2,31,1572307514,"~/.vim/after/syntax/c.vim"
--'  2  31  ~/.vim/after/syntax/c.vim
-|4,39,2,31,1572307514,"~/.vim/after/syntax/c.vim"
--'  1  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,1,0,1572300153,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  1  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,1,0,1572300138,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  2  29  ~/.vim/after/syntax/c.vim
-|4,39,2,29,1572300099,"~/.vim/after/syntax/c.vim"
--'  2  29  ~/.vim/after/syntax/c.vim
-|4,39,2,29,1572300099,"~/.vim/after/syntax/c.vim"
--'  2  29  ~/.vim/after/syntax/c.vim
-|4,39,2,29,1572300099,"~/.vim/after/syntax/c.vim"
--'  2  29  ~/.vim/after/syntax/c.vim
-|4,39,2,29,1572300099,"~/.vim/after/syntax/c.vim"
--'  2  29  ~/.vim/after/syntax/c.vim
-|4,39,2,29,1572300099,"~/.vim/after/syntax/c.vim"
--'  2  29  ~/.vim/after/syntax/c.vim
-|4,39,2,29,1572300099,"~/.vim/after/syntax/c.vim"
--'  2  29  ~/.vim/after/syntax/c.vim
-|4,39,2,29,1572300099,"~/.vim/after/syntax/c.vim"
--'  2  29  ~/.vim/after/syntax/c.vim
-|4,39,2,29,1572300099,"~/.vim/after/syntax/c.vim"
--'  2  29  ~/.vim/after/syntax/c.vim
-|4,39,2,29,1572300099,"~/.vim/after/syntax/c.vim"
--'  2  29  ~/.vim/after/syntax/c.vim
-|4,39,2,29,1572300099,"~/.vim/after/syntax/c.vim"
--'  2  29  ~/.vim/after/syntax/c.vim
-|4,39,2,29,1572300099,"~/.vim/after/syntax/c.vim"
--'  2  29  ~/.vim/after/syntax/c.vim
-|4,39,2,29,1572300099,"~/.vim/after/syntax/c.vim"
--'  2  29  ~/.vim/after/syntax/c.vim
-|4,39,2,29,1572300099,"~/.vim/after/syntax/c.vim"
--'  2  29  ~/.vim/after/syntax/c.vim
-|4,39,2,29,1572300099,"~/.vim/after/syntax/c.vim"
--'  2  29  ~/.vim/after/syntax/c.vim
-|4,39,2,29,1572300099,"~/.vim/after/syntax/c.vim"
--'  2  29  ~/.vim/after/syntax/c.vim
-|4,39,2,29,1572300099,"~/.vim/after/syntax/c.vim"
--'  1  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,1,0,1572300072,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  2  42  ~/.vim/after/syntax/c.vim
-|4,39,2,42,1572300031,"~/.vim/after/syntax/c.vim"
--'  2  42  ~/.vim/after/syntax/c.vim
-|4,39,2,42,1572300031,"~/.vim/after/syntax/c.vim"
--'  2  42  ~/.vim/after/syntax/c.vim
-|4,39,2,42,1572300031,"~/.vim/after/syntax/c.vim"
--'  2  42  ~/.vim/after/syntax/c.vim
-|4,39,2,42,1572300031,"~/.vim/after/syntax/c.vim"
--'  2  42  ~/.vim/after/syntax/c.vim
-|4,39,2,42,1572300031,"~/.vim/after/syntax/c.vim"
--'  2  42  ~/.vim/after/syntax/c.vim
-|4,39,2,42,1572300031,"~/.vim/after/syntax/c.vim"
--'  2  42  ~/.vim/after/syntax/c.vim
-|4,39,2,42,1572300031,"~/.vim/after/syntax/c.vim"
--'  2  42  ~/.vim/after/syntax/c.vim
-|4,39,2,42,1572300031,"~/.vim/after/syntax/c.vim"
--'  2  42  ~/.vim/after/syntax/c.vim
-|4,39,2,42,1572300031,"~/.vim/after/syntax/c.vim"
--'  2  42  ~/.vim/after/syntax/c.vim
-|4,39,2,42,1572300031,"~/.vim/after/syntax/c.vim"
--'  2  42  ~/.vim/after/syntax/c.vim
-|4,39,2,42,1572300031,"~/.vim/after/syntax/c.vim"
--'  2  42  ~/.vim/after/syntax/c.vim
-|4,39,2,42,1572300031,"~/.vim/after/syntax/c.vim"
--'  2  42  ~/.vim/after/syntax/c.vim
-|4,39,2,42,1572300031,"~/.vim/after/syntax/c.vim"
--'  2  42  ~/.vim/after/syntax/c.vim
-|4,39,2,42,1572300031,"~/.vim/after/syntax/c.vim"
--'  2  42  ~/.vim/after/syntax/c.vim
-|4,39,2,42,1572300031,"~/.vim/after/syntax/c.vim"
--'  2  42  ~/.vim/after/syntax/c.vim
-|4,39,2,42,1572300031,"~/.vim/after/syntax/c.vim"
--'  68  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,68,0,1572299855,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  68  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,68,0,1572299855,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  68  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,68,0,1572299855,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  68  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,68,0,1572299855,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  68  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,68,0,1572299855,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  68  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,68,0,1572299855,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  68  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,68,0,1572299855,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  68  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,68,0,1572299855,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  908  4  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,908,4,1572299833,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  908  4  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,908,4,1572299833,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  908  4  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,908,4,1572299833,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  908  4  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,908,4,1572299833,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  908  4  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,908,4,1572299833,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  908  4  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,908,4,1572299833,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  908  4  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,908,4,1572299833,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  908  4  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,908,4,1572299833,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  76  2  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,76,2,1572299807,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  76  2  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,76,2,1572299807,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  76  2  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,76,2,1572299807,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  76  2  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,76,2,1572299807,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  76  2  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,76,2,1572299807,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  76  2  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,76,2,1572299807,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  76  2  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,76,2,1572299807,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  76  2  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,76,2,1572299807,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  216  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,216,0,1572299795,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  216  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,216,0,1572299795,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  216  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,216,0,1572299795,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  216  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,216,0,1572299795,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  216  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,216,0,1572299795,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  216  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,216,0,1572299795,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  216  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,216,0,1572299795,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  216  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,216,0,1572299795,"~/fusion2/application/display_mgr/gtk_thread.c"
--'  1  0  ~/fusion2/application/display_mgr/gtk_thread.c
-|4,39,1,0,1572299718,"~/fusion2/application/display_mgr/gtk_thread.c"
+-'  7  6  ~/my_vi/update_repo_from_home.sh
+|4,39,7,6,1615390674,"~/my_vi/update_repo_from_home.sh"
+-'  6  12  ~/my_vi/update_repo_from_home.sh
+|4,39,6,12,1615390620,"~/my_vi/update_repo_from_home.sh"
+-'  1  0  ~/my_vi/update_repo_from_home.sh
+|4,39,1,0,1615390047,"~/my_vi/update_repo_from_home.sh"
+-'  1  0  ~/projects/fusion2/meta-fusion2/conf/layer.conf
+|4,39,1,0,1615289454,"~/projects/fusion2/meta-fusion2/conf/layer.conf"
+-'  1  0  ~/projects/fusion2/meta-fusion2/conf/layer.conf
+|4,39,1,0,1615289454,"~/projects/fusion2/meta-fusion2/conf/layer.conf"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1615289251,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1615289251,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1615289251,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1615289251,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,39,1,0,1615288859,"~/projects/fusion2/build/conf/bblayers.conf"
+-'  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,39,1,0,1615288859,"~/projects/fusion2/build/conf/bblayers.conf"
+-'  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,39,1,0,1615288859,"~/projects/fusion2/build/conf/bblayers.conf"
+-'  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,39,1,0,1615288859,"~/projects/fusion2/build/conf/bblayers.conf"
+-'  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,39,1,0,1615288859,"~/projects/fusion2/build/conf/bblayers.conf"
+-'  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,39,1,0,1615288859,"~/projects/fusion2/build/conf/bblayers.conf"
+-'  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,39,1,0,1615288859,"~/projects/fusion2/build/conf/bblayers.conf"
+-'  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,39,1,0,1615288859,"~/projects/fusion2/build/conf/bblayers.conf"
+-'  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,39,1,0,1614819052,"~/projects/fusion2/build/conf/bblayers.conf"
+-'  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,39,1,0,1614819052,"~/projects/fusion2/build/conf/bblayers.conf"
+-'  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,39,1,0,1614819052,"~/projects/fusion2/build/conf/bblayers.conf"
+-'  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,39,1,0,1614819052,"~/projects/fusion2/build/conf/bblayers.conf"
+-'  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,39,1,0,1614819052,"~/projects/fusion2/build/conf/bblayers.conf"
+-'  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,39,1,0,1614819052,"~/projects/fusion2/build/conf/bblayers.conf"
+-'  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,39,1,0,1614819052,"~/projects/fusion2/build/conf/bblayers.conf"
+-'  1  0  ~/projects/fusion2/build/conf/bblayers.conf
+|4,39,1,0,1614819052,"~/projects/fusion2/build/conf/bblayers.conf"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  1  0  ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+|4,39,1,0,1614262329,"~/projects/fusion2/meta-fusion2/images/fusion2-image.bb"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
+-'  62  0  ~/.bashrc
+|4,39,62,0,1614029695,"~/.bashrc"
 
 # History of marks within files (newest to oldest):
 
-> ~/fusion2/application/display_mgr/__XtermColorTable__
-	*	1572314473	0
-	"	44	71
-	.	46	0
-	+	266	0
-	+	222	0
-	+	178	0
-	+	134	0
-	+	90	0
-	+	46	0
+> ~/my_vi/update_repo_from_home.sh
+	*	1615390672	0
+	"	7	6
+	^	7	7
+	.	7	6
+	+	6	0
+	+	7	6
 
-> ~/fusion2/application/display_mgr/gtk_thread.c
-	*	1572314423	0
-	"	69	0
-	^	1	1
+> ~/my_vi/__Tag_List__
+	*	1615390047	0
+	"	3	0
+	.	4	0
+	+	4	0
+
+> ~/projects/fusion2/meta-fusion2/conf/layer.conf
+	*	1615289266	0
+	"	1	0
+
+> ~/projects/fusion2/meta-fusion2/conf/__Tag_List__
+	*	1615289266	0
+	"	2	0
 	.	1	0
-	+	321	41
-	+	321	74
-	+	637	73
-	+	634	30
-	+	636	57
-	+	637	76
-	+	640	30
-	+	638	76
-	+	641	30
-	+	629	80
-	+	636	31
-	+	326	0
-	+	327	0
-	+	328	0
-	+	329	0
-	+	330	0
-	+	331	0
-	+	332	0
-	+	333	0
-	+	334	0
-	+	335	0
-	+	336	0
-	+	337	0
-	+	338	0
-	+	326	26
-	+	327	23
-	+	328	27
-	+	329	28
-	+	330	28
-	+	331	28
-	+	332	25
-	+	333	14
-	+	334	14
-	+	335	24
-	+	336	24
-	+	337	11
-	+	338	8
-	+	326	30
-	+	327	27
-	+	328	31
-	+	329	32
-	+	330	32
-	+	331	32
-	+	332	29
-	+	333	18
-	+	334	18
-	+	335	28
-	+	336	30
-	+	337	15
-	+	336	30
-	+	338	12
-	+	326	0
-	+	341	0
-	+	673	34
-	+	652	32
-	+	659	31
-	+	666	31
-	+	652	31
-	+	246	0
-	+	261	0
-	+	295	0
-	+	325	0
-	+	941	3
-	+	942	0
-	+	943	0
-	+	953	0
-	+	962	0
-	+	971	0
-	+	979	0
-	+	987	0
-	+	994	0
-	+	970	0
-	+	962	0
-	+	953	0
-	+	1001	0
-	+	1004	0
-	+	1005	0
-	+	1003	0
-	+	1002	45
-	+	1011	260
-	+	1011	0
-	+	1016	0
-	+	1017	0
-	+	1015	32
-	+	1046	0
-	+	1047	0
-	+	1050	21
-	+	1053	25
-	+	1037	0
-	+	393	0
-	+	343	0
-	+	304	37
-	+	311	0
-	+	71	0
-	+	322	0
-	+	323	0
-	+	309	18
-	+	307	52
-	+	308	0
 	+	1	0
 
-> ~/fusion2/application/display_mgr/__Tag_List__
-	*	1572314402	0
-	"	14	4
-	.	90	0
-	+	425	0
-	+	495	0
-	+	425	0
-	+	494	0
-	+	425	0
-	+	300	0
-	+	425	0
-	+	329	0
-	+	300	0
-	+	425	0
-	+	300	0
-	+	425	0
-	+	300	0
-	+	381	0
-	+	424	0
-	+	299	0
-	+	158	0
-	+	210	0
-	+	102	0
-	+	153	0
-	+	102	0
-	+	118	0
-	+	102	0
-	+	106	0
-	+	102	0
-	+	105	0
-	+	101	0
-	+	109	0
+> ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb
+	*	1615288888	0
+	"	1	0
+	.	53	0
+	+	35	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	27	37
+	+	28	37
+	+	33	10
+	+	58	10
+	+	106	14
+	+	103	13
+	+	129	19
+	+	57	10
 	+	16	0
-	+	104	0
-	+	113	0
-	+	10	0
-	+	15	0
-	+	98	0
-	+	100	0
-	+	97	0
-	+	99	0
-	+	96	0
-	+	98	0
-	+	17	0
-	+	94	0
-	+	96	0
-	+	93	0
-	+	92	0
-	+	96	0
-	+	91	0
-	+	95	0
-	+	90	0
+	+	58	0
+	+	12	0
+	+	12	33
+	+	58	0
+	+	12	0
+	+	53	0
 
-> ~/.vim/colors/mrushdark.vim
-	*	1572314357	0
-	"	132	45
-	^	207	35
-	.	207	34
-	+	129	0
-	+	207	34
-
-> ~/.vim/after/syntax/c.vim
-	*	1572314355	0
-	"	3	20
-	^	3	21
-	.	3	20
+> ~/projects/fusion2/meta-fusion2/images/__Tag_List__
+	*	1615288888	0
+	"	2	0
+	.	1	0
+	+	3	0
+	+	2	0
 	+	1	0
-	+	2	31
-	+	3	20
 
-> /usr/local/share/vim/vim81/colors/mrushdark.vim
-	*	1572299392	0
-	"	129	0
-	.	129	0
-	+	228	15
-	+	229	20
-	+	230	13
-	+	231	15
-	+	232	15
-	+	233	13
-	+	234	11
-	+	235	12
-	+	236	15
-	+	237	10
-	+	238	10
-	+	239	9
-	+	240	11
-	+	241	8
-	+	242	12
-	+	243	15
-	+	244	16
-	+	245	17
-	+	246	12
-	+	247	7
-	+	248	11
-	+	249	16
-	+	250	17
-	+	251	14
-	+	252	9
-	+	253	10
-	+	254	10
-	+	255	7
-	+	256	18
-	+	257	14
-	+	258	13
-	+	259	12
-	+	260	9
-	+	210	0
-	+	211	0
-	+	212	0
-	+	213	0
-	+	214	0
-	+	215	0
-	+	216	0
-	+	217	0
-	+	218	0
-	+	219	0
-	+	220	0
-	+	221	0
-	+	222	0
-	+	223	0
-	+	224	0
-	+	225	0
-	+	226	0
-	+	227	0
-	+	228	0
-	+	229	0
-	+	230	0
-	+	231	0
-	+	232	0
-	+	233	0
-	+	234	0
-	+	235	0
-	+	236	0
-	+	237	0
-	+	238	0
-	+	239	0
-	+	240	0
-	+	241	0
+> ~/projects/fusion2/build/conf/bblayers.conf
+	*	1615288805	0
+	"	1	0
+
+> ~/projects/fusion2/build/conf/__Tag_List__
+	*	1615288805	0
+	"	2	0
+	.	1	0
+	+	1	0
+
+> ~/projects/fusion2/__Tag_List__
+	*	1614616057	0
+	"	2	0
+	.	1	0
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	9	0
+	+	8	0
+	+	25	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	8	0
+	+	2	0
+	+	1	0
+
+> ~/.bashrc
+	*	1614029694	0
+	"	62	0
+
+> ~/__Tag_List__
+	*	1612964458	0
+	"	3	0
+	.	4	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	9	0
+	+	8	0
+	+	7	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	2	0
+	+	4	0
+
+> ~/projects/fusion2/application/supervisor/supervisor.c
+	*	1609960176	0
+	"	170	0
+	^	688	84
+	.	689	0
+	+	617	39
+	+	671	0
+	+	674	0
+	+	692	0
+	+	674	0
+	+	672	0
+	+	671	35
+	+	680	0
+	+	672	0
+	+	671	36
+	+	672	0
+	+	673	0
+	+	699	0
+	+	697	22
+	+	693	0
+	+	695	54
+	+	303	16
+	+	669	24
+	+	668	0
+	+	671	0
+	+	679	67
+	+	696	7
+	+	697	0
+	+	696	20
+	+	697	0
+	+	696	91
+	+	697	68
+	+	92	0
+	+	595	0
+	+	596	0
+	+	668	5
+	+	657	0
+	+	615	0
+	+	624	0
+	+	635	0
+	+	694	0
+	+	702	0
+	+	700	0
+	+	735	0
+	+	737	0
+	+	704	0
+	+	703	33
+	+	736	13
+	+	771	13
+	+	791	0
+	+	790	13
+	+	771	40
+	+	736	52
+	+	703	46
+	+	697	0
+	+	698	46
+	+	270	3
+	+	270	57
+	+	270	8
+	+	270	5
+	+	681	8
+	+	270	0
+	+	681	0
+	+	689	3
+	+	681	0
+	+	683	0
+	+	681	0
+	+	683	89
+	+	688	83
+	+	689	0
+
+> ~/projects/fusion2/application/supervisor/__Tag_List__
+	*	1609958741	0
+	"	40	4
+	.	47	0
+	+	99	0
+	+	52	0
+	+	104	0
+	+	99	0
+	+	105	0
+	+	99	0
+	+	105	0
+	+	99	0
+	+	105	0
+	+	99	0
+	+	113	0
+	+	139	0
+	+	99	0
+	+	98	0
+	+	53	0
+	+	52	0
+	+	64	0
+	+	71	0
+	+	18	0
+	+	50	0
+	+	49	0
+	+	48	0
+	+	47	0
+
+> ~/projects/fusion2/application/display_mgr/display_mgr.c
+	*	1602633627	0
+	"	538	31
+	^	538	32
+	.	538	31
+	+	434	52
+	+	171	43
+	+	63	0
+	+	135	0
+	+	435	0
+	+	434	0
+	+	435	0
+	+	435	62
+	+	453	18
+	+	454	0
+	+	447	0
+	+	445	0
+	+	442	0
+	+	445	22
+	+	447	25
+	+	453	23
+	+	449	0
+	+	453	29
+	+	454	0
+	+	444	11
+	+	446	11
+	+	448	11
+	+	452	11
+	+	435	0
+	+	125	0
+	+	444	1
+	+	445	1
+	+	446	1
+	+	447	1
+	+	448	1
+	+	449	1
+	+	452	1
+	+	453	1
+	+	442	34
+	+	435	60
+	+	435	14
+	+	435	15
+	+	435	18
+	+	435	16
+	+	435	0
+	+	435	19
+	+	435	55
+	+	435	52
+	+	435	55
+	+	435	53
+	+	435	50
+	+	435	54
+	+	435	48
+	+	435	54
+	+	450	0
+	+	453	27
+	+	435	1
+	+	444	0
+	+	445	0
+	+	446	0
+	+	447	0
+	+	448	0
+	+	449	0
+	+	450	0
+	+	451	0
+	+	452	0
+	+	453	0
+	+	435	0
+	+	443	1
+	+	454	1
+	+	435	64
+	+	435	0
+	+	60	0
+	+	442	0
+	+	59	0
+	+	442	69
 	+	242	0
-	+	243	0
-	+	244	0
-	+	245	0
-	+	246	0
-	+	247	0
-	+	248	0
-	+	249	0
-	+	250	0
-	+	251	0
-	+	252	0
-	+	253	0
-	+	254	0
-	+	255	0
-	+	256	0
-	+	257	0
-	+	258	0
-	+	259	0
-	+	260	0
-	+	261	0
-	+	245	0
-	+	196	0
-	+	240	0
-	+	129	24
-	+	129	0
-	+	129	35
-	+	129	24
-	+	129	34
-	+	129	23
-	+	129	18
-	+	129	23
-	+	129	0
-	+	188	36
-	+	189	0
-	+	129	0
+	+	533	60
+	+	162	0
+	+	160	113
+	+	160	29
+	+	1133	0
+	+	1134	26
+	+	1136	0
+	+	1134	18
+	+	1136	0
+	+	1136	23
+	+	1136	3
+	+	1130	0
+	+	1134	7
+	+	1136	27
+	+	1129	0
+	+	1130	0
+	+	541	0
+	+	549	0
+	+	533	41
+	+	535	24
+	+	541	0
+	+	87	0
+	+	86	6
+	+	951	41
+	+	1010	17
+	+	539	0
+	+	537	0
+	+	538	31
 
-> /usr/local/share/vim/vim81/syntax/c.vim
-	*	1572299306	0
-	"	326	13
-	.	294	0
-	+	294	0
+> ~/projects/fusion2/application/display_mgr/__Tag_List__
+	*	1602633554	0
+	"	55	4
+	.	63	0
+	+	181	0
+	+	191	0
+	+	181	0
+	+	202	0
+	+	64	0
+	+	181	0
+	+	180	0
+	+	238	0
+	+	63	0
+
+> ~/projects/fusion2/application/common_lib/mq_messages.h
+	*	1601256416	0
+	"	67	0
+	^	190	66
+	.	190	65
+	+	192	0
+	+	191	30
+	+	195	28
+	+	192	32
+	+	193	32
+	+	194	32
+	+	193	32
+	+	194	32
+	+	195	32
+	+	194	32
+	+	190	65
+
+> ~/projects/fusion2/application/common_lib/__Tag_List__
+	*	1601256411	0
+	"	30	4
+	.	55	0
+	+	54	0
+	+	45	0
+	+	54	0
+	+	45	0
+	+	79	0
+	+	124	0
+	+	53	0
+	+	45	0
+	+	137	0
+	+	45	0
+	+	44	0
+	+	53	0
+	+	98	0
+	+	36	0
+	+	55	0
+
+> ~/projects/spirio/application/supervisor/spirio20app.c
+	*	1601256392	0
+	"	45	18
+
+> ~/projects/spirio/application/lx_stream/__Tag_List__
+	*	1601256278	0
+	"	155	0
+	.	196	0
+	+	65	0
+	+	82	0
+	+	64	0
+	+	81	0
+	+	112	0
+	+	138	0
+	+	154	0
+	+	196	0
+
+> ~/projects/spirio/application/common_inc/lxp_types.h
+	*	1601125607	0
+	"	85	0
+
+> ~/projects/spirio/application/lx_stream/lx_stream_hndlr.h
+	*	1601125596	0
+	"	1	0
+
+> ~/projects/spirio/application/lx_stream/makefile
+	*	1601125590	0
+	"	1	0
+
+> ~/projects/spirio/application/lx_stream/lx_stream_hndlr.c
+	*	1601065202	0
+	"	38	13
+
+> ~/projects/spirio/application/common_inc/spirio2.0_common.h
+	*	1600956374	0
+	"	1	0
+
+> ~/projects/fusion2/application/__Tag_List__
+	*	1600909134	0
+	"	21	4
+	.	55	0
+	+	29	0
+	+	26	0
+	+	24	0
+	+	23	0
+	+	22	0
+	+	20	0
+	+	583	0
+	+	55	0
+
+> ~/projects/fusion2/application/supervisor/supervisor.h
+	*	1600887805	0
+	"	49	0
+
+> ~/projects/fusion2/application/supervisor/options.c
+	*	1600787846	0
+	"	89	0
+
+> ~/.viminfo
+	*	1600074195	0
+	"	23	1
 
 > ~/.vimrc
-	*	1572298395	0
+	*	1600073331	0
+	"	78	0
+
+> ~/projects/fusion2/ttd.txt
+	*	1600073298	0
 	"	1	0
-	^	77	12
-	.	77	11
-	+	83	1
-	+	83	0
-	+	73	39
-	+	75	212
-	+	75	141
-	+	75	82
+	^	20	0
+	.	19	0
+	+	18	78
+	+	15	0
+	+	16	0
+	+	17	38
+	+	19	0
+
+> ~/projects/fusion2/application/common_lib/fusion2-env.c
+	*	1598273846	0
+	"	55	0
+	^	54	83
+	.	54	82
+	+	242	0
+	+	248	0
+	+	276	0
+	+	657	0
+	+	661	0
+	+	676	0
+	+	719	0
+	+	730	0
+	+	732	0
+	+	745	0
+	+	784	0
+	+	793	0
+	+	796	0
+	+	809	0
+	+	856	0
+	+	866	0
+	+	868	0
+	+	881	0
+	+	926	0
+	+	368	0
+	+	370	0
+	+	382	0
+	+	433	0
+	+	443	0
+	+	445	0
+	+	457	0
+	+	506	0
+	+	516	0
+	+	518	0
+	+	530	0
+	+	577	0
+	+	587	0
+	+	589	0
+	+	601	0
+	+	646	0
+	+	86	0
 	+	75	0
-	+	75	82
-	+	75	0
-	+	79	0
-	+	75	140
+	+	86	61
+	+	96	64
+	+	118	26
+	+	98	7
+	+	98	0
 	+	76	0
-	+	81	13
-	+	39	0
-	+	83	0
-	+	78	0
-	+	79	0
-	+	77	11
-
-> ~/fusion2/__Tag_List__
-	*	1572289230	0
-	"	3	0
-	.	6	0
-	+	4	0
-	+	6	0
-	+	5	0
-	+	6	0
-
-> ~/fusion2/build/images/automate_cm3_emmc_format.sh
-	*	1572030653	0
-	"	11	0
-	^	10	2
-	.	10	1
-	+	1	0
-	+	24	5
-	+	19	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	13	0
-	+	14	0
-	+	9	61
-	+	10	1
-
-> ~/fusion2/build/images/__Tag_List__
-	*	1572026773	0
-	"	3	0
-	.	4	0
-	+	166	0
-	+	163	0
-	+	159	0
-	+	160	0
-	+	158	0
-	+	155	0
-	+	152	0
-	+	150	0
-	+	148	0
-	+	149	0
-	+	147	0
-	+	144	0
-	+	141	0
-	+	138	0
-	+	131	0
-	+	135	0
-	+	128	0
-	+	123	0
-	+	114	0
+	+	82	0
+	+	96	0
+	+	86	73
+	+	86	78
+	+	98	0
+	+	76	0
+	+	118	58
+	+	275	0
+	+	276	0
+	+	274	24
+	+	42	20
+	+	43	49
+	+	86	0
+	+	110	0
+	+	117	0
 	+	118	0
-	+	120	0
-	+	112	0
-	+	107	0
-	+	112	0
-	+	109	0
-	+	111	0
-	+	103	0
-	+	100	0
-	+	102	0
-	+	99	0
-	+	94	0
-	+	91	0
-	+	88	0
-	+	86	0
-	+	83	0
-	+	86	0
-	+	85	0
-	+	78	0
-	+	80	0
-	+	75	0
-	+	72	0
-	+	69	0
-	+	66	0
-	+	63	0
-	+	60	0
+	+	116	8
+	+	118	44
+	+	242	0
+	+	119	0
+	+	129	38
+	+	145	44
+	+	147	42
+	+	151	44
+	+	153	42
+	+	164	44
+	+	166	42
+	+	170	44
+	+	172	42
+	+	184	42
+	+	216	46
+	+	219	44
+	+	224	46
+	+	227	44
+	+	166	23
+	+	170	23
+	+	172	23
+	+	184	23
+	+	216	27
+	+	219	23
+	+	224	27
+	+	227	23
+	+	300	19
+	+	328	19
+	+	68	25
+	+	68	0
+	+	129	19
+	+	145	23
+	+	147	23
+	+	151	23
+	+	153	23
+	+	164	23
 	+	56	0
-	+	55	0
-	+	52	0
-	+	54	0
-	+	48	0
-	+	50	0
-	+	47	0
-	+	44	0
-	+	40	0
-	+	39	0
-	+	38	0
-	+	37	0
-	+	36	0
-	+	35	0
-	+	34	0
-	+	33	0
-	+	32	0
-	+	31	0
-	+	30	0
-	+	29	0
-	+	28	0
-	+	27	0
-	+	26	0
-	+	25	0
-	+	24	0
-	+	23	0
-	+	22	0
-	+	21	0
-	+	20	0
-	+	19	0
-	+	18	0
-	+	17	0
-	+	16	0
-	+	15	0
-	+	14	0
-	+	13	0
-	+	12	0
-	+	11	0
-	+	10	0
-	+	9	0
-	+	8	0
-	+	7	0
-	+	6	0
-	+	8	0
-	+	10	0
-	+	12	0
-	+	7	0
-	+	6	0
-	+	8	0
-	+	6	0
-	+	7	0
-	+	5	0
-	+	6	0
-	+	7	0
-	+	4	0
-
-> ~/fusion2/build/images/mk2parts.sh
-	*	1572024066	0
-	"	80	0
-
-> ~/fusion2/utilities/make_script_to_build_kernel
-	*	1571942881	0
-	"	3	0
-	^	3	0
-	.	3	0
-	+	3	0
-
-> ~/fusion2/utilities/__Tag_List__
-	*	1571942837	0
-	"	2	0
-	.	1	0
-	+	1	0
-
-> ~/temp/sshd
-	*	1571747684	0
-	"	3	0
-	.	4	0
-	+	3	0
-	+	1	0
-	+	2	0
-	+	3	0
-	+	4	0
-
-> ~/temp/__Tag_List__
-	*	1571747552	0
-	"	2	0
-	.	1	0
-	+	1	0
-
-> ~/fusion2/application/tcp_client/configuration.c
-	*	1571672959	0
-	"	3	51
-
-> ~/fusion2/application/tcp_client/__Tag_List__
-	*	1571672943	0
-	"	3	0
-	.	7	0
-	+	7	0
-
-> ~/fusion2/utilities/mnt_rootfs.sh
-	*	1571672117	0
-	"	68	0
-	^	21	55
-	.	21	55
-	+	12	6
-	+	21	55
-
-> ~/fusion2/utilities/capture_packages.sh
-	*	1571672037	0
-	"	3	147
-	^	3	148
-	.	3	147
-	+	3	17
-	+	3	147
-
-> ~/fusion2/application/tcp_server/makefile
-	*	1571670520	0
-	"	26	30
-	^	26	31
-	.	26	30
-	+	26	30
-
-> ~/fusion2/application/__Tag_List__
-	*	1571670501	0
-	"	3	0
-	.	17	0
-	+	8	0
-	+	7	0
-	+	6	0
-	+	5	0
-	+	22	0
-	+	20	0
-	+	2	0
-	+	17	0
-
-> ~/fusion2/application/tcp_client/client.c.test
-	*	1571670489	0
-	"	7	0
-	^	6	48
-	.	6	47
-	+	6	47
-
-> ~/fusion2/application/tcp_client/makefile
-	*	1571670439	0
-	"	28	32
-	^	28	33
-	.	28	32
-	+	28	32
-
-> ~/fusion2/application/sensor_input/makefile
-	*	1571670391	0
-	"	53	0
-	^	36	59
-	.	53	0
-	+	11	0
-	+	31	18
-	+	32	0
-	+	36	58
+	+	53	96
 	+	53	0
+	+	54	82
 
-> ~/fusion2/application/scripts/manifest.xml
-	*	1571670270	0
-	"	10	23
-	^	10	24
-	.	10	23
-	+	1	7
-	+	17	8
-	+	17	0
-	+	10	23
+> ~/projects/fusion2/application/supervisor/supervisor.
+	*	1597630316	0
+	"	1	0
 
-> ~/fusion2/application/scripts/fota
-	*	1571670199	0
-	"	24	20
-	^	24	21
-	.	24	20
-	+	3	65
-	+	9	93
-	+	13	25
-	+	14	24
-	+	24	20
-
-> ~/fusion2/application/etc/syslog.conf
-	*	1571670159	0
-	"	21	27
-	^	21	28
-	.	21	27
-	+	21	27
-
-> ~/fusion2/application/common_lib/file_util.h
-	*	1571670066	0
-	"	6	37
-	^	6	38
-	.	6	37
-	+	3	10
-	+	5	43
-	+	6	37
-
-> ~/fusion2/application/common_lib/__Tag_List__
-	*	1571670012	0
-	"	3	0
-	.	6	0
+> ~/projects/fusion2/build/conf/local.conf
+	*	1596638933	0
+	"	52	0
+	^	52	1
+	.	52	0
+	+	2	39
+	+	2	40
+	+	2	0
+	+	2	42
+	+	2	38
+	+	2	0
+	+	2	8
+	+	2	9
+	+	2	0
+	+	4	0
+	+	5	0
 	+	6	0
-
-> ~/fusion2/build/conf/local.conf
-	*	1571406664	0
-	"	66	0
-
-> ~/Desktop/SettingUpUbuntuDevMachine.txt
-	*	1571400982	0
-	"	33	5
-	^	33	6
-	.	33	5
-	+	122	27
-	+	10	17
-	+	12	4
-	+	12	7
-	+	20	3
-	+	22	2
-	+	22	13
-	+	25	4
-	+	25	3
-	+	25	8
-	+	25	4
-	+	25	3
-	+	25	7
-	+	25	12
-	+	25	15
-	+	27	9
-	+	29	14
-	+	33	4
-	+	33	3
-	+	33	7
-	+	33	12
-	+	33	5
-	+	35	15
-	+	35	6
-	+	35	7
-	+	35	0
-	+	12	0
-	+	20	0
-	+	12	0
-	+	18	0
-	+	20	0
-	+	25	0
-	+	11	0
-	+	22	0
-	+	27	0
-	+	29	0
-	+	26	0
-	+	25	0
-	+	33	0
-	+	30	0
-	+	33	0
-	+	36	4
-	+	36	8
-	+	36	0
-	+	35	0
-	+	13	0
-	+	25	0
-	+	33	0
-	+	21	0
-	+	25	0
-	+	32	0
-	+	33	0
-	+	29	0
-	+	33	0
-	+	22	0
-	+	25	0
+	+	7	0
+	+	2	0
+	+	2	6
+	+	2	0
+	+	2	44
+	+	2	41
+	+	2	0
+	+	2	42
+	+	2	38
+	+	2	0
+	+	2	50
+	+	2	33
+	+	2	32
+	+	2	0
+	+	2	15
+	+	2	18
+	+	2	20
+	+	2	21
+	+	2	19
+	+	2	16
+	+	2	14
+	+	2	0
+	+	2	15
+	+	2	0
+	+	1	0
+	+	19	0
+	+	14	0
 	+	15	0
-	+	22	0
-	+	24	0
-	+	25	0
-	+	19	0
-	+	27	0
-	+	28	0
-	+	10	17
-	+	11	16
-	+	12	8
-	+	13	7
-	+	14	8
-	+	15	9
-	+	16	8
-	+	17	16
-	+	18	5
-	+	19	13
-	+	20	4
-	+	21	6
-	+	22	14
-	+	23	13
-	+	24	14
-	+	25	16
-	+	26	15
-	+	27	3
-	+	28	10
-	+	29	6
-	+	30	8
-	+	32	6
-	+	36	0
-	+	31	0
-	+	34	4
-	+	33	5
-
-> ~/Desktop/__Tag_List__
-	*	1571399831	0
-	"	2	0
-	.	1	0
-	+	2	0
-	+	1	0
-
-> ~/Desktop/MergingUbuntuYoctoFiles/SettingUpUbuntuDevMachine.txt
-	*	1571365069	0
-	"	122	11
-	^	120	7
-	.	120	16
-	+	3	0
-	+	4	0
-	+	5	0
-	+	6	0
-	+	7	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	0
+	+	16	0
 	+	17	0
+	+	19	0
+	+	14	15
+	+	15	18
+	+	16	20
+	+	17	21
+	+	19	20
+	+	19	19
+	+	19	0
+	+	19	15
+	+	19	0
+	+	16	0
 	+	18	0
-	+	19	0
-	+	20	0
-	+	21	0
-	+	23	0
-	+	24	0
-	+	25	0
-	+	26	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	32	0
-	+	34	0
-	+	35	0
-	+	77	29
-	+	1	47
-	+	2	0
-	+	8	0
-	+	9	6
-	+	17	0
-	+	18	6
-	+	21	0
-	+	33	0
-	+	34	6
-	+	13	0
-	+	17	0
-	+	44	0
-	+	120	16
-
-> ~/Desktop/MergingUbuntuYoctoFiles/__Tag_List__
-	*	1571364600	0
-	"	2	0
-	.	1	0
-	+	5	0
-	+	4	0
-	+	3	0
-	+	2	0
-	+	1	0
-
-> ~/Desktop/MergingUbuntuYoctoFiles/yocto2-setup.txt
-	*	1571361626	0
-	"	23	0
-	.	22	0
-	+	1	0
-	+	2	0
-	+	3	0
-	+	4	0
-	+	5	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	0
 	+	13	0
 	+	14	0
 	+	15	0
@@ -1280,395 +1109,952 @@ $
 	+	17	0
 	+	18	0
 	+	19	0
-	+	20	0
-	+	21	0
 	+	22	0
-
-> ~/Desktop/MergingUbuntuYoctoFiles/setupyocto.txt
-	*	1571361589	0
-	"	74	0
-	.	74	0
-	+	1	0
-	+	2	0
-	+	3	0
-	+	4	0
-	+	5	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	18	0
-	+	19	0
-	+	20	0
-	+	21	0
-	+	22	0
-	+	23	0
-	+	24	0
 	+	25	0
-	+	26	0
-	+	27	0
 	+	28	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	32	0
-	+	33	0
-	+	34	0
-	+	35	0
-	+	36	0
-	+	37	0
-	+	38	0
-	+	39	0
-	+	40	0
-	+	41	0
-	+	42	0
-	+	43	0
-	+	44	0
-	+	45	0
-	+	46	0
-	+	47	0
-	+	48	0
-	+	49	0
-	+	50	0
+	+	63	1
+	+	62	0
 	+	51	0
 	+	52	0
-	+	53	0
-	+	54	0
-	+	55	0
-	+	56	0
-	+	57	0
+
+> ~/projects/fusion2/build/__Tag_List__
+	*	1596638911	0
+	"	2	0
+	.	1	0
+	+	17	0
+	+	16	0
+	+	15	0
+	+	14	0
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	9	0
+	+	8	0
+	+	7	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	2	0
+	+	1	0
+
+> ~/projects/rpi/build/conf/bblayers.conf
+	*	1596555086	0
+	"	19	20
+	^	19	21
+	.	19	20
+	+	19	20
+
+> ~/projects/rpi/build/__Tag_List__
+	*	1596555069	0
+	"	2	0
+	.	1	0
+	+	1	0
+
+> ~/do_rpi3
+	*	1596554987	0
+	"	1	48
+	^	1	49
+	.	1	48
+	+	1	48
+
+> ~/projects/rpi/meta-rpi/images/console-image.bb
+	*	1596554809	0
+	"	1	0
+
+> ~/projects/rpi/__Tag_List__
+	*	1596554809	0
+	"	2	0
+	.	1	0
+	+	2	0
+	+	1	0
+
+> ~/projects/rpi/build/conf/local.conf
+	*	1596554758	0
+	"	22	0
+	^	21	1
+	.	21	0
+	+	48	21
+	+	49	17
+	+	62	34
+	+	8	0
+	+	25	0
+	+	19	0
+	+	21	0
+
+> ~/yocto1_vm_home/gryphon/applications/tripwire/server/tripwire-server.c
+	*	1596140377	0
+	"	231	0
+
+> ~/yocto1_vm_home/gryphon/applications/tripwire/server/__Tag_List__
+	*	1596140334	0
+	"	29	4
+	.	32	0
+	+	32	0
+
+> ~/.bash_history
+	*	1596042815	0
+	"	1645	0
+	.	1645	0
+	+	390	0
+	+	1645	0
+
+> ~/projects/fusion2/application/display_mgr/gtk_thread.c
+	*	1595431235	0
+	"	1246	12
+	^	1328	39
+	.	1328	38
+	+	1795	5
+	+	1796	5
+	+	1798	5
+	+	1374	43
+	+	667	29
+	+	796	0
+	+	794	0
+	+	796	0
+	+	792	0
+	+	794	0
+	+	791	59
+	+	792	0
+	+	407	16
+	+	410	48
+	+	410	0
+	+	410	20
+	+	408	16
+	+	410	30
+	+	408	16
+	+	410	0
+	+	403	0
+	+	404	0
+	+	410	0
+	+	407	16
+	+	296	0
+	+	407	72
+	+	1	0
+	+	67	20
+	+	516	37
+	+	370	33
+	+	299	5
+	+	1252	39
+	+	1286	40
+	+	1266	0
+	+	67	0
+	+	516	24
+	+	299	61
+	+	302	0
+	+	302	7
+	+	302	64
+	+	308	0
+	+	311	0
+	+	310	7
+	+	297	33
+	+	302	26
+	+	311	14
+	+	302	14
+	+	299	10
+	+	302	0
+	+	307	4
+	+	301	0
+	+	305	0
+	+	302	0
+	+	305	0
+	+	311	0
+	+	314	0
+	+	315	0
+	+	308	0
+	+	299	60
+	+	308	8
+	+	310	69
+	+	301	85
+	+	305	58
+	+	314	58
+	+	1518	0
+	+	1511	0
+	+	1517	0
+	+	1	0
+	+	1346	12
+	+	1372	20
+	+	1344	71
+	+	1382	41
+	+	1374	21
+	+	1375	35
+	+	1275	16
+	+	1284	16
+	+	1292	16
+	+	1300	16
+	+	1308	16
+	+	1316	16
+	+	1324	16
+	+	1323	0
+	+	1315	8
+	+	1307	0
+	+	1299	0
+	+	581	99
+	+	581	0
+	+	1024	0
+	+	283	0
+	+	401	0
+	+	1246	36
+	+	1254	36
+	+	1280	38
+	+	1288	38
+	+	1296	38
+	+	1304	38
+	+	1312	38
+	+	1320	38
+	+	1328	38
+
+> ~/projects/fusion2/application/display_mgr/fusion_workarea_utils.c
+	*	1595429413	0
+	"	355	49
+	^	355	50
+	.	634	0
+	+	328	29
+	+	291	0
+	+	328	31
+	+	355	49
+	+	609	0
+	+	610	0
+	+	611	0
+	+	612	0
+	+	613	0
+	+	631	0
+	+	632	0
+	+	633	0
+	+	634	0
+
+> ~/projects/fusion2/application/display_mgr/backlight_ctlr_thd.c
+	*	1595366847	0
+	"	485	0
+	^	51	31
+	.	51	30
+	+	274	85
+	+	274	77
+	+	274	84
+	+	274	85
+	+	274	77
+	+	274	88
+	+	274	89
+	+	274	81
+	+	274	82
+	+	274	83
+	+	274	75
+	+	274	88
+	+	274	89
+	+	274	81
+	+	274	34
+	+	274	33
+	+	274	32
+	+	274	30
+	+	274	35
+	+	274	33
+	+	274	31
+	+	274	33
+	+	274	31
+	+	274	23
+	+	274	24
+	+	274	23
+	+	274	24
+	+	274	26
+	+	274	22
+	+	274	23
+	+	274	0
+	+	172	0
+	+	274	0
+	+	287	0
+	+	286	0
+	+	289	0
+	+	138	23
+	+	137	22
+	+	219	0
+	+	236	0
+	+	237	0
+	+	184	56
+	+	189	62
+	+	194	61
+	+	183	17
+	+	256	29
+	+	257	62
+	+	262	64
+	+	267	72
+	+	262	73
+	+	257	71
+	+	424	42
+	+	426	0
+	+	433	0
+	+	422	0
+	+	426	47
+	+	430	1
+	+	426	3
+	+	427	39
+	+	424	9
+	+	428	0
+	+	429	0
+	+	428	42
+	+	429	19
+	+	431	21
+	+	423	29
+	+	72	0
+	+	50	0
+	+	446	0
+	+	477	0
+	+	446	26
+	+	446	0
+	+	447	0
+	+	446	0
+	+	475	0
+	+	447	2
+	+	470	17
+	+	469	32
+	+	473	17
+	+	475	41
+	+	468	38
+	+	463	0
+	+	459	0
+	+	455	0
+	+	451	0
+	+	455	16
+	+	457	22
+	+	459	19
+	+	461	25
+	+	463	17
+	+	465	23
+	+	467	17
+	+	469	23
+	+	468	28
+	+	464	28
+	+	460	30
+	+	456	27
+	+	164	0
+	+	184	7
+	+	51	30
+
+> ~/projects/fusion2/application/display_mgr/calibration_window_utilities.c
+	*	1595366458	0
+	"	454	0
+	^	214	26
+	.	214	20
+	+	547	12
+	+	548	12
+	+	71	31
+	+	77	18
+	+	375	0
+	+	368	0
+	+	309	9
+	+	200	0
+	+	204	16
+	+	207	16
+	+	207	0
+	+	205	2
+	+	207	2
+	+	312	12
+	+	313	12
+	+	206	0
+	+	400	63
+	+	310	14
+	+	550	66
+	+	551	66
+	+	553	11
+	+	369	35
+	+	207	23
+	+	207	0
+	+	308	0
+	+	309	9
+	+	310	14
+	+	312	12
+	+	313	49
+	+	292	38
+	+	204	16
+	+	207	16
+	+	211	49
+	+	207	0
+	+	301	0
+	+	299	0
+	+	289	0
+	+	399	14
+	+	423	6
+	+	435	6
+	+	446	6
+	+	73	7
+	+	281	18
+	+	297	13
+	+	369	18
+	+	385	13
+	+	74	6
+	+	369	17
+	+	385	12
+	+	380	38
+	+	312	50
+	+	321	13
+	+	324	44
+	+	340	44
+	+	367	44
+	+	324	85
+	+	329	43
+	+	330	80
+	+	329	93
+	+	330	58
+	+	333	42
+	+	337	27
+	+	340	88
+	+	351	41
+	+	355	50
+	+	359	57
+	+	363	42
+	+	367	94
+	+	377	0
+	+	379	39
+	+	368	87
+	+	403	13
+	+	404	63
+	+	337	78
+	+	332	42
+	+	229	40
+	+	316	40
+	+	118	23
+	+	135	23
+	+	149	32
+	+	151	0
+	+	51	29
+	+	458	38
+	+	458	0
+	+	51	0
+	+	324	83
+	+	600	1
+	+	214	0
+	+	216	53
+	+	218	64
+	+	222	68
+	+	227	83
+	+	216	77
+	+	229	0
+	+	216	0
+	+	224	0
+	+	216	0
+	+	214	20
+
+> ~/projects/fusion2/application/display_mgr/transient_banner.c
+	*	1595366318	0
+	"	145	22
+	^	90	8
+	.	90	7
+	+	151	0
+	+	155	0
+	+	133	0
+	+	135	13
+	+	138	13
+	+	141	13
+	+	144	13
+	+	147	13
+	+	133	4
+	+	135	13
+	+	133	4
+	+	138	13
+	+	133	4
+	+	141	13
+	+	133	4
+	+	144	13
+	+	133	3
+	+	147	13
+	+	133	0
+	+	100	61
+	+	103	50
+	+	71	32
+	+	93	0
+	+	89	3
+	+	106	3
+	+	105	0
+	+	117	0
+	+	136	20
+	+	139	20
+	+	142	20
+	+	145	20
+	+	148	20
+	+	136	23
+	+	139	23
+	+	142	23
+	+	145	23
+	+	148	23
+	+	136	23
+	+	139	23
+	+	142	23
+	+	145	23
+	+	148	23
+	+	118	26
+	+	120	0
+	+	131	0
+	+	132	0
+	+	120	7
+	+	131	7
+	+	120	41
+	+	155	0
+	+	127	8
+	+	117	0
+	+	130	7
+	+	120	59
+	+	132	0
+	+	107	0
+	+	111	0
+	+	108	27
+	+	120	59
+	+	127	7
+	+	120	0
+	+	124	0
+	+	120	0
+	+	122	0
+	+	121	0
+	+	120	0
+	+	127	0
+	+	125	62
+	+	126	14
+	+	133	0
+	+	155	0
+	+	132	0
+	+	153	0
+	+	147	1
+	+	148	1
+	+	149	1
+	+	147	61
+	+	101	0
+	+	157	0
+	+	154	0
+	+	157	0
+	+	136	27
+	+	139	27
+	+	142	27
+	+	145	27
+	+	136	39
+	+	139	36
+	+	142	39
+	+	145	37
+	+	120	19
+	+	81	0
+	+	69	45
+	+	83	0
+	+	92	0
+	+	91	14
+	+	83	0
+	+	80	15
+	+	123	80
+	+	78	0
+	+	90	7
+
+> ~/projects/fusion2/application/display_mgr/cntl_board_thread.c
+	*	1595361039	0
+	"	401	0
+	^	846	32
+	.	401	0
+	+	40	0
+	+	43	0
+	+	49	0
+	+	42	16
+	+	541	15
+	+	542	15
+	+	539	19
+	+	540	18
+	+	526	0
+	+	528	17
+	+	387	1
+	+	388	1
+	+	384	0
+	+	383	7
+	+	387	0
+	+	388	0
+	+	389	0
+	+	389	86
+	+	389	0
+	+	387	1
+	+	388	1
+	+	384	0
+	+	386	0
+	+	385	32
+	+	337	0
+	+	338	0
+	+	337	27
+	+	342	0
+	+	345	24
+	+	344	27
+	+	361	0
+	+	364	0
+	+	363	27
+	+	363	43
+	+	344	0
+	+	337	38
+	+	344	38
+	+	654	14
+	+	655	34
+	+	765	0
+	+	759	0
+	+	759	14
+	+	765	14
+	+	757	0
+	+	763	0
+	+	769	0
+	+	759	0
+	+	651	0
+	+	654	14
+	+	337	0
+	+	344	0
+	+	363	0
+	+	173	46
+	+	172	14
+	+	381	0
+	+	394	0
+	+	379	90
+	+	396	0
+	+	395	14
+	+	400	6
+	+	400	0
+	+	400	20
+	+	402	20
+	+	836	29
+	+	850	0
+	+	848	0
+	+	849	28
+	+	846	31
+	+	400	0
+	+	402	0
+	+	400	0
+	+	402	0
+	+	400	0
+	+	401	0
+
+> ~/projects/spirio/application/spirio_settings_lib/src/spirio_env.c
+	*	1595355204	0
+	"	219	0
+	.	465	0
+	+	465	0
+
+> ~/projects/fusion2/application/common_lib/fusion2-env.h
+	*	1595276967	0
+	"	69	57
+	^	75	88
+	.	75	87
+	+	52	24
+	+	55	21
+	+	56	20
+	+	58	15
+	+	59	14
+	+	61	24
+	+	64	20
+	+	69	20
+	+	70	19
+	+	53	38
+	+	56	24
+	+	59	18
+	+	62	27
+	+	65	23
+	+	70	23
+	+	69	40
+	+	74	0
+	+	79	35
+	+	80	32
+	+	79	49
+	+	80	58
+	+	79	47
+	+	80	38
+	+	79	52
+	+	80	52
+	+	74	0
+	+	75	87
+
+> ~/projects/fusion2/application/common_lib/shared_mutex.c
+	*	1595268899	0
+	"	46	21
+	^	43	0
+	.	43	0
+	+	1	0
+	+	17	31
+	+	23	77
+	+	25	0
+	+	24	81
+	+	24	0
+	+	50	71
+	+	42	0
+	+	43	0
+
+> ~/projects/fusion2/meta-fusion2/recipes-app-layer/common_lib/common-lib.bb
+	*	1594922919	0
+	"	24	0
+
+> ~/projects/fusion2/application/common_lib/makefile
+	*	1594850419	0
+	"	23	0
+
+> ~/projects/fusion2/application/etc/fusion.cfg
+	*	1594846787	0
+	"	61	0
+	^	325	32
+	.	325	31
+	+	80	6
+	+	80	17
+	+	80	28
+	+	80	24
+	+	80	27
+	+	80	29
+	+	80	27
+	+	80	28
+	+	80	31
+	+	80	34
+	+	80	17
+	+	80	0
+	+	320	0
+	+	328	23
+	+	329	23
+	+	330	23
+	+	331	23
+	+	332	23
+	+	328	26
+	+	329	26
+	+	330	26
+	+	331	26
+	+	332	35
+	+	331	35
+	+	330	35
+	+	329	35
+	+	328	27
+	+	329	27
+	+	330	27
+	+	331	27
+	+	332	27
+	+	57	44
+	+	51	25
+	+	325	38
+	+	324	29
+	+	326	0
+	+	322	0
+	+	324	6
+	+	325	7
+	+	322	21
+	+	325	31
+
+> ~/projects/fusion2/application/common_lib/shared_mutex.h
+	*	1594830679	0
+	"	33	34
+	^	49	35
+	.	49	34
+	+	29	0
+	+	1	0
+	+	17	33
+	+	41	25
+	+	44	25
+	+	46	25
+	+	47	25
+	+	48	25
+	+	49	25
+	+	52	64
+	+	71	0
+	+	87	0
+	+	49	34
+
+> ~/projects/spirio/application/__Tag_List__
+	*	1594702461	0
+	"	26	4
+	.	28	0
+	+	28	0
+
+> ~/projects/fusion2/meta-fusion2/recipes-kernel/linux/linux-raspberrypi/raspberrypi-cm3/defconfig
+	*	1594662500	0
+	"	1	0
+	^	5	1
+	.	5	0
+	+	46	40
+	+	1398	35
+	+	2	40
+	+	59	0
+	+	58	0
+	+	63	0
+	+	5	0
+
+> ~/oe4/fusion2/tmpdir-thud/work/raspberrypi_cm3-poky-linux-gnueabi/linux-raspberrypi/1_4.14.79+gitAUTOINC+9ca74c53cb-r0/linux-raspberrypi_cm3-standard-build/.config
+	*	1594662462	0
+	"	1	0
+	^	34	29
+	.	34	28
+	+	34	28
+
+> ~/projects/fusion2/meta-fusion2/recipes-kernel/linux/linux-raspberrypi/raspberrypi-cm3/__Tag_List__
+	*	1594662462	0
+	"	2	0
+	.	1	0
+	+	4	0
+	+	3	0
+	+	2	0
+	+	1	0
+
+> ~/oe4/fusion2/tmpdir-thud/work/raspberrypi_cm3-poky-linux-gnueabi/linux-raspberrypi/1_4.14.79+gitAUTOINC+9ca74c53cb-r0/linux-raspberrypi_cm3-standard-build/defconfig
+	*	1594662403	0
+	"	1	0
+
+> ~/projects/fusion2/meta-fusion2/recipes-kernel/linux/linux-raspberrypi_4.14.bbappend
+	*	1594662266	0
+	"	2	0
+	^	1	9
+	.	2	0
+	+	1	0
+	+	1	25
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	27	0
+	+	205	0
+	+	207	0
+	+	7	27
+	+	1	19
+	+	1	0
+	+	3	21
+	+	7	0
+	+	3	0
+	+	207	0
+	+	9	0
+	+	27	0
+	+	25	0
+	+	26	0
+	+	25	27
+	+	26	31
+	+	1	0
+	+	3	0
+	+	7	0
+	+	28	0
+	+	1	0
+	+	3	0
+	+	7	0
+	+	2	24
+	+	28	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	28	3
+	+	28	0
+	+	2	20
+	+	225	0
+	+	1	8
+	+	2	0
+
+> ~/projects/fusion2/meta-fusion2/recipes-kernel/linux/__Tag_List__
+	*	1594662208	0
+	"	2	0
+	.	1	0
+	+	34	0
+	+	33	0
+	+	32	0
+	+	31	0
+	+	30	0
+	+	29	0
+	+	28	0
+	+	27	0
+	+	26	0
+	+	25	0
+	+	24	0
+	+	23	0
+	+	22	0
+	+	21	0
+	+	20	0
+	+	19	0
+	+	18	0
+	+	17	0
+	+	16	0
+	+	15	0
+	+	14	0
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	9	0
+	+	8	0
+	+	7	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	2	0
+	+	1	0
+
+> ~/projects/fusion2/build/images/__Tag_List__
+	*	1594661931	0
+	"	2	0
+	.	1	0
+	+	68	0
+	+	67	0
+	+	66	0
+	+	65	0
+	+	64	0
+	+	63	0
+	+	62	0
+	+	61	0
+	+	60	0
+	+	59	0
 	+	58	0
 	+	60	0
 	+	59	0
-	+	60	0
-	+	61	0
-	+	62	0
-	+	63	0
-	+	64	0
-	+	65	0
-	+	66	0
-	+	67	0
-	+	68	0
-	+	69	0
-	+	70	0
-	+	71	0
-	+	72	0
-	+	73	0
-	+	74	0
-
-> ~/Desktop/MergingUbuntuYoctoFiles/SettingUpYoctoForRPI3.txt
-	*	1571361483	0
-	"	65	0
-
-> ~/fusion2/build/images/make_sdcard_image.sh
-	*	1571278163	0
-	"	1	0
-
-> ~/fusion2/build/images/copy_rootfs.sh
-	*	1571273342	0
-	"	76	1
-
-> ~/fusion2/build/images/make_mount_cm3_loop_image.sh
-	*	1571272888	0
-	"	1	0
-
-> ~/fusion2/build/images/copy_boot.sh
-	*	1571271408	0
-	"	69	0
-
-> ~/fusion2/application/display_mgr/cntl_board_thread.c
-	*	1571261971	0
-	"	670	0
-	^	50	28
-	.	444	78
-	+	588	0
-	+	587	0
-	+	631	0
-	+	631	37
-	+	631	0
-	+	631	19
-	+	631	0
-	+	563	7
-	+	562	26
-	+	563	36
-	+	563	0
-	+	651	0
-	+	655	0
-	+	656	29
-	+	676	0
-	+	631	0
-	+	658	0
-	+	676	0
-	+	64	36
-	+	287	0
-	+	288	23
-	+	289	0
-	+	631	0
-	+	563	0
-	+	672	0
-	+	670	0
-	+	672	0
-	+	671	24
-	+	579	0
-	+	578	3
-	+	598	0
-	+	597	0
-	+	596	26
-	+	603	74
-	+	616	0
-	+	614	22
-	+	361	24
-	+	602	60
-	+	603	32
-	+	605	120
-	+	606	28
-	+	607	32
-	+	612	9
-	+	613	9
-	+	615	0
-	+	602	73
-	+	661	54
-	+	585	114
-	+	602	19
-	+	591	24
-	+	576	12
-	+	259	0
-	+	602	0
-	+	64	0
-	+	76	0
-	+	64	0
-	+	66	0
-	+	66	6
-	+	66	0
-	+	64	0
-	+	66	35
-	+	63	103
-	+	66	0
-	+	295	25
-	+	296	62
-	+	259	0
-	+	177	0
-	+	240	0
-	+	241	0
-	+	291	23
-	+	323	19
-	+	337	19
-	+	354	0
-	+	467	0
-	+	468	0
-	+	584	0
-	+	585	0
-	+	661	0
-	+	154	7
-	+	431	0
-	+	194	102
-	+	605	146
-	+	663	104
-	+	49	31
-	+	194	77
-	+	605	81
-	+	663	65
-	+	50	34
-	+	214	73
-	+	444	78
-	m	309	38
-
-> ~/fusion2/.git/config
-	*	1571261145	0
-	"	38	1
-	.	39	0
+	+	58	0
+	+	57	0
+	+	56	0
+	+	54	0
+	+	56	0
+	+	57	0
+	+	58	0
+	+	55	0
+	+	53	0
+	+	59	0
+	+	51	0
+	+	53	0
+	+	54	0
+	+	53	0
+	+	52	0
+	+	54	0
+	+	48	0
+	+	47	0
+	+	46	0
+	+	45	0
+	+	44	0
+	+	43	0
+	+	42	0
+	+	41	0
+	+	40	0
 	+	39	0
-
-> ~/.gitconfig
-	*	1571260886	0
-	"	1	0
-
-> ~/fusion2/application/display_mgr/display_mgr.c
-	*	1571260237	0
-	"	77	0
-	^	87	41
-	.	77	0
-	+	702	33
-	+	703	73
-	+	705	90
-	+	707	34
-	+	708	75
-	+	710	84
-	+	712	31
-	+	713	69
-	+	718	84
-	+	720	31
-	+	721	69
-	+	723	62
-	+	725	20
-	+	726	47
-	+	728	62
-	+	730	20
-	+	731	47
-	+	733	76
-	+	735	27
-	+	737	61
-	+	741	56
-	+	743	17
-	+	744	41
-	+	746	50
-	+	748	14
-	+	749	35
-	+	751	0
-	+	741	59
-	+	746	34
-	+	44	16
-	+	661	48
-	+	671	0
-	+	674	11
-	+	712	104
-	+	712	0
-	+	86	37
-	+	85	65
-	+	86	65
-	+	713	34
-	+	715	75
-	+	713	0
-	+	714	0
-	+	735	30
-	+	737	67
-	+	737	30
-	+	740	31
-	+	737	0
-	+	737	31
-	+	92	33
-	+	90	0
-	+	92	0
-	+	737	0
-	+	740	0
-	+	735	28
-	+	737	62
-	+	89	0
-	+	88	26
-	+	89	0
-	+	88	0
-	+	90	33
-	+	91	33
-	+	735	30
-	+	737	67
-	+	738	0
-	+	736	30
-	+	738	67
-	+	733	79
-	+	683	35
-	+	715	75
-	+	716	0
-	+	715	49
-	+	738	67
-	+	739	0
-	+	738	45
-	+	733	70
-	+	687	35
-	+	689	0
-	+	752	0
-	+	687	17
-	+	754	82
-	+	757	0
-	+	752	0
-	+	751	8
-	+	689	0
-	+	751	0
-	+	757	0
-	+	756	0
-	+	672	0
+	+	38	0
+	+	37	0
+	+	36	0
+	+	35	0
+	+	34	0
+	+	33	0
+	+	32	0
 	+	31	0
-	+	4	0
-	+	96	0
-	+	77	13
-	+	77	5
-	+	82	41
-	+	81	40
-	+	84	40
-	+	85	40
-	+	86	40
-	+	87	40
-	+	77	0
-	m	40	0
-
-> /usr/local/share/vim/vim81/colors/delek.vim
-	*	1571244041	0
-	"	47	0
-
-> /usr/local/share/vim/vim81/doc/syntax.txt
-	*	1571171718	0
-	"	4639	22
-
-> /usr/local/share/vim/vim81/syntax/syntax.vim
-	*	1571171057	0
-	"	1	0
-
-> /usr/local/share/vim/vim81/syntax/__Tag_List__
-	*	1571170632	0
-	"	12	0
-	.	19	0
-	+	11	0
-	+	19	0
-
-> ~/.vim/plugin/plugins.README
-	*	1571152875	0
-	"	5	15
-	^	4	45
-	.	4	44
-	+	7	0
-	+	5	15
-	+	4	44
-
-> ~/.vim/plugin/XtermColorTable.README
-	*	1571150622	0
-	"	57	0
-	^	57	0
-	.	56	45
-	+	56	45
-
-> /usr/local/share/vim/vim81/colors/README.txt
-	*	1571142399	0
-	"	88	2
-
-> /usr/local/share/vim/vim81/colors/blue.vim
-	*	1571141683	0
-	"	10	0
-
-> ~/fusion2/application/display_mgr/test.vim
-	*	1571141655	0
-	"	1	0
-	.	257	0
-	+	1	64
-	+	257	0
-
-> ~/.profile
-	*	1571107628	0
-	"	20	33
-	^	27	0
-	.	26	2
-	+	1	0
-	+	21	0
-	+	26	2
-
-> ~/.bashrc
-	*	1571106843	0
-	"	117	0
-	.	119	0
-	+	119	0
-
-> ~/__Tag_List__
-	*	1571105748	0
-	"	3	0
-	.	4	0
-	+	14	0
-	+	13	0
+	+	30	0
+	+	29	0
+	+	28	0
+	+	27	0
+	+	26	0
+	+	25	0
+	+	24	0
+	+	26	0
+	+	25	0
+	+	24	0
+	+	23	0
+	+	22	0
+	+	18	0
+	+	17	0
+	+	16	0
+	+	18	0
+	+	17	0
+	+	16	0
 	+	12	0
 	+	11	0
 	+	10	0
@@ -1676,1181 +2062,714 @@ $
 	+	8	0
 	+	7	0
 	+	6	0
-	+	10	0
-	+	9	0
-	+	6	0
 	+	5	0
-	+	7	0
 	+	4	0
-
-> /usr/local/share/vim/vim81/colors/default.vim
-	*	1571104579	0
-	"	10	0
-
-> ~/fusion2/application/display_mgr/Highlight test
-	*	1571103099	0
-	"	1	0
-	^	73	24
-	.	49	0
-	+	50	0
 	+	3	0
-	+	49	0
-
-> /usr/local/share/vim/vim81/colors/oceanlight.vim
-	*	1571102821	0
-	"	6	26
-	^	74	16
-	.	74	15
-	+	11	1
-	+	23	1
-	+	24	1
-	+	25	1
-	+	26	1
-	+	27	1
-	+	28	1
-	+	29	1
-	+	30	1
-	+	31	1
-	+	32	1
-	+	33	1
-	+	34	1
-	+	35	1
-	+	36	1
-	+	37	1
-	+	40	5
-	+	43	5
-	+	45	1
-	+	46	1
-	+	47	1
-	+	48	1
-	+	49	1
-	+	50	1
-	+	51	1
-	+	52	1
-	+	53	1
-	+	54	1
-	+	55	1
-	+	61	2
-	+	61	1
-	+	63	1
-	+	66	5
-	+	67	5
-	+	70	1
-	+	72	1
-	+	73	5
-	+	74	5
-	+	76	5
-	+	77	5
-	+	78	5
-	+	80	1
-	+	86	1
-	+	91	1
-	+	98	1
-	+	100	1
-	+	102	1
-	+	104	0
-	+	24	15
-	+	23	15
-	+	25	15
-	+	26	15
-	+	27	15
-	+	28	15
-	+	29	15
-	+	30	15
-	+	32	15
-	+	33	15
-	+	34	16
-	+	35	15
-	+	36	15
-	+	37	15
-	+	40	15
-	+	43	15
-	+	45	15
-	+	46	15
-	+	47	15
-	+	48	15
-	+	49	15
-	+	50	15
-	+	51	15
-	+	52	15
-	+	53	15
-	+	54	15
-	+	55	15
-	+	61	15
-	+	63	15
-	+	64	15
-	+	65	0
-	+	66	0
-	+	67	0
-	+	68	0
-	+	72	0
-	+	73	0
-	+	74	0
-	+	75	0
-	+	76	0
-	+	77	0
-	+	78	0
-	+	60	0
-	+	65	16
-	+	66	15
-	+	67	15
-	+	70	15
-	+	71	15
-	+	72	15
-	+	73	15
-	+	74	15
-
-> /usr/local/share/vim/vim81/colors/asu1dark.vim
-	*	1571101408	0
-	"	32	0
-	^	13	0
-	.	32	0
-	+	79	56
-	+	50	0
-	+	35	0
-	+	47	0
-	+	40	0
-	+	50	0
-	+	45	0
-	+	50	0
-	+	41	0
-	+	50	0
-	+	52	0
-	+	47	0
-	+	49	0
-	+	53	0
-	+	46	0
-	+	53	0
-	+	54	0
-	+	55	0
-	+	38	0
-	+	56	0
-	+	37	0
-	+	39	0
-	+	35	0
-	+	36	0
-	+	56	0
-	+	42	0
-	+	43	0
-	+	44	0
-	+	15	0
-	+	16	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	18	0
-	+	19	0
-	+	20	0
-	+	21	0
-	+	22	0
-	+	23	0
-	+	24	0
-	+	25	0
-	+	26	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	33	0
-	+	14	36
-	+	13	0
-	+	32	0
-
-> ~/fusion2/application/display_mgr/display_mgr.h
-	*	1571099982	0
-	"	1	0
-	^	82	43
-	.	83	63
-	+	87	0
-	+	88	0
-	+	73	0
-	+	87	0
-	+	86	0
-	+	84	7
-	+	85	7
-	+	84	8
-	+	85	8
-	+	73	6
-	+	74	6
-	+	75	6
-	+	76	6
-	+	77	6
-	+	79	0
-	+	80	6
-	+	81	6
-	+	82	6
-	+	84	6
-	+	85	6
-	+	73	12
-	+	74	12
-	+	75	12
-	+	76	12
-	+	77	12
-	+	79	12
-	+	80	12
-	+	81	12
-	+	82	12
-	+	84	12
-	+	85	12
-	+	73	18
-	+	74	18
-	+	75	18
-	+	76	18
-	+	77	18
-	+	79	18
-	+	80	18
-	+	81	18
-	+	82	18
-	+	84	20
-	+	85	20
-	+	50	0
-	+	51	16
-	+	66	11
-	+	51	11
-	+	52	15
-	+	66	0
-	+	66	11
-	+	52	11
-	+	22	0
-	+	24	0
-	+	39	34
-	+	54	4
-	+	66	33
-	+	54	33
-	+	53	37
-	+	53	56
-	+	52	25
-	+	53	28
-	+	53	9
-	+	66	10
-	+	53	10
-	+	52	52
-	+	66	0
-	+	60	0
-	+	62	10
-	+	62	11
-	+	52	62
-	+	62	0
-	+	61	62
-	+	53	0
-	+	56	0
-	+	53	0
-	+	55	0
-	+	62	0
-	+	64	0
-	+	48	0
-	+	49	0
-	+	48	16
-	+	44	23
-	+	44	0
-	+	44	19
-	+	45	0
-	+	43	15
-	+	41	0
-	+	44	18
-	+	42	0
-	+	48	0
-	+	78	52
-	+	77	72
-	+	83	0
-	+	82	40
-	+	83	40
-	+	82	45
-	+	83	63
-
-> ~/my_vi/.vimrc
-	*	1571084061	0
-	"	1	0
-
-> ~/my_vi/__Tag_List__
-	*	1571084056	0
-	"	3	0
-	.	6	0
-	+	12	0
-	+	15	0
-	+	6	0
-
-> ~/my_vi/vimtools/.vimrc
-	*	1571083620	0
-	"	3	0
-
-> ~/vim/scripts/taglist.vim
-	*	1571083174	0
-	"	531	4
-
-> ~/vim/scripts/proj_settings.vim
-	*	1571079843	0
-	"	2	0
-
-> ~/vim/scripts/cscope_maps.vim
-	*	1571079196	0
-	"	84	0
-
-> ~/vim/vim/src/__Tag_List__
-	*	1571077175	0
-	"	2	0
-	.	1	0
-	+	335	0
-	+	119	0
 	+	2	0
 	+	1	0
 
-> ~/vim/vim/src/fold.c
-	*	1571071801	0
-	"	864	1
+> ~/projects/fusion2/application/display_mgr/ms5607_thd.c
+	*	1594398816	0
+	"	246	1
+	^	246	2
+	.	246	1
+	+	219	34
+	+	219	50
+	+	221	35
+	+	219	0
+	+	221	0
+	+	219	11
+	+	219	13
+	+	219	0
+	+	217	12
+	+	218	12
+	+	219	0
+	+	199	0
+	+	206	0
+	+	189	67
+	+	209	57
+	+	213	46
+	+	214	30
+	+	239	27
+	+	302	0
+	+	209	0
+	+	210	0
+	+	209	34
+	+	242	0
+	+	209	0
+	+	210	0
+	+	390	28
+	+	415	0
+	+	408	53
+	+	410	29
+	+	412	12
+	+	414	0
+	+	406	8
+	+	413	0
+	+	246	0
+	+	245	0
+	+	241	24
+	+	241	28
+	+	242	0
+	+	241	24
+	+	245	36
+	+	241	10
+	+	245	22
+	+	241	35
+	+	408	47
+	+	415	75
+	+	408	46
+	+	407	1
+	+	408	1
+	+	409	1
+	+	410	1
+	+	411	1
+	+	412	1
+	+	390	1
+	+	242	1
+	+	243	1
+	+	244	1
+	+	245	1
+	+	246	1
 
-> /tmp/RLS3pQ_cntl_board_thread.c
-	"	669	0
+> ~/projects/fusion2/application/etc/wpa_supplicant.conf
+	*	1594213077	0
+	"	25	20
+	^	25	21
+	.	25	20
+	+	25	20
 
-> ~/vim/vim/src/Makefile
-	"	1	0
+> /etc/fstab
+	*	1594158985	0
+	"	9	0
+	^	11	41
+	.	12	0
+	+	11	41
+	+	12	0
 
-> ~/fusion2/meta-fusion2/images/fusion2-image.bb
-	"	107	0
+> ~/projects/fusion2/application/common_lib/pigpio.h
+	*	1594066391	0
+	"	6353	9
 
-> ~/fusion2/meta-fusion2/images/__Tag_List__
+> ~/projects/fusion2/meta-fusion2/recipes-app-layer/display-mgr/display-mgr.bb
+	*	1592425077	0
+	"	6	53
+	^	7	54
+	.	7	0
+	+	36	31
+	+	37	0
+	+	36	33
+	+	7	0
+
+> ~/projects/fusion2/application/display_mgr/time_entry_window_utilities.c
+	*	1592423868	0
+	"	141	5
+	^	159	2
+	.	159	1
+	+	108	0
+	+	109	0
+	+	112	0
+	+	109	30
+	+	112	0
+	+	109	59
+	+	109	31
+	+	109	0
+	+	111	0
+	+	109	0
+	+	110	0
+	+	109	30
+	+	111	60
+	+	120	0
+	+	122	0
+	+	120	0
+	+	121	0
+	+	120	30
+	+	122	49
+	+	84	11
+	+	159	1
+
+> ~/projects/fusion2/application/display_mgr/admin_window_utilities.c
+	*	1592421541	0
+	"	264	9
+	^	182	7
+	.	268	13
+	+	278	62
+	+	311	101
+	+	318	108
+	+	325	0
+	+	325	126
+	+	185	23
+	+	195	0
+	+	185	4
+	+	176	0
+	+	195	84
+	+	195	63
+	+	210	0
+	+	195	68
+	+	190	28
+	+	194	14
+	+	193	17
+	+	311	153
+	+	187	85
+	+	187	65
+	+	190	0
+	+	187	65
+	+	190	1
+	+	191	1
+	+	192	1
+	+	193	1
+	+	194	1
+	+	195	47
+	+	196	0
+	+	195	3
+	+	210	0
+	+	200	0
+	+	208	0
+	+	203	18
+	+	209	0
+	+	210	0
+	+	189	93
+	+	185	0
+	+	176	97
+	+	176	45
+	+	176	69
+	+	185	0
+	+	176	70
+	+	178	32
+	+	184	0
+	+	175	0
+	+	183	78
+	+	183	62
+	+	183	0
+	+	204	8
+	+	203	10
+	+	206	19
+	+	205	0
+	+	207	27
+	+	60	27
+	+	182	10
+	+	207	10
+	+	176	22
+	+	204	45
+	+	202	21
+	+	204	45
+	+	207	18
+	+	204	45
+	+	179	53
+	+	207	48
+	+	179	54
+	+	189	0
+	+	189	5
+	+	189	0
+	+	188	98
+	+	179	69
+	+	207	66
+	+	179	0
+	+	207	24
+	+	180	0
+	+	181	0
+	+	182	18
+	+	179	95
+	+	180	25
+	+	181	58
+	+	182	28
+	+	179	0
+	+	182	29
+	+	182	0
+	+	207	0
+	+	179	0
+	+	187	0
+	+	187	64
+	+	187	4
+	+	187	0
+	+	187	54
+	+	182	35
+	+	218	9
+	+	227	9
+	+	231	15
+	+	238	9
+	+	249	9
+	+	253	17
+	+	261	9
+	+	268	13
+
+> ~/projects/fusion2/application/display_mgr/configuration.c
+	*	1592421376	0
+	"	308	8
+	^	262	68
+	.	309	53
+	+	307	90
+	+	309	88
+	+	313	77
+	+	309	38
+	+	297	0
+	+	287	0
+	+	277	0
+	+	267	0
+	+	277	78
+	+	279	76
+	+	283	68
+	+	287	84
+	+	289	79
+	+	293	71
+	+	297	80
+	+	299	77
+	+	303	69
+	+	307	80
+	+	309	77
+	+	313	69
+	+	279	41
+	+	289	44
+	+	299	42
+	+	309	42
+	+	318	24
+	+	277	39
+	+	287	39
+	+	307	39
+	+	297	39
+	+	267	39
+	+	265	0
+	+	221	0
+	+	223	67
+	+	225	59
+	+	229	65
+	+	225	41
+	+	223	54
+	+	225	0
+	+	223	0
+	+	265	0
+	+	223	65
+	+	223	22
+	+	223	54
+	+	225	0
+	+	225	59
+	+	229	82
+	+	229	0
+	+	229	81
+	+	223	67
+	+	223	92
+	+	223	84
+	+	223	15
+	+	265	0
+	+	223	0
+	+	234	55
+	+	236	28
+	+	236	63
+	+	240	69
+	+	225	42
+	+	234	55
+	+	236	28
+	+	236	90
+	+	240	69
+	+	236	69
+	+	236	55
+	+	233	16
+	+	223	16
+	+	265	0
+	+	222	42
+	+	236	73
+	+	225	62
+	+	225	63
+	+	225	66
+	+	234	125
+	+	236	17
+	+	223	0
+	+	265	0
+	+	223	99
+	+	225	0
+	+	236	0
+	+	225	58
+	+	236	69
+	+	245	0
+	+	244	12
+	+	245	83
+	+	247	76
+	+	251	67
+	+	256	94
+	+	258	87
+	+	262	67
+	+	269	55
+	+	279	52
+	+	289	55
+	+	299	53
+	+	309	53
+
+> ~/projects/fusion2/application/display_mgr/configuration.h
+	*	1592419026	0
+	"	31	47
+	^	30	74
+	.	30	73
+	+	31	16
+	+	32	16
+	+	33	16
+	+	34	16
+	+	35	16
+	+	31	38
+	+	32	0
+	+	33	38
+	+	34	38
+	+	35	38
+	+	31	4
+	+	32	4
+	+	33	4
+	+	34	4
+	+	35	4
+	+	26	24
+	+	31	21
+	+	32	18
+	+	33	21
+	+	34	19
+	+	35	19
+	+	31	16
+	+	32	13
+	+	33	13
+	+	34	13
+	+	35	15
+	+	34	15
+	+	33	15
+	+	32	15
+	+	29	27
+	+	30	0
+	+	31	0
+	+	30	38
+	+	29	61
+	+	30	73
+	+	27	0
+	+	29	13
+	+	30	13
+	+	27	40
+	+	28	39
+	+	29	40
+	+	30	39
+	+	27	73
+	+	28	73
+	+	29	73
+	+	30	73
+
+> ~/projects/fusion2/application/display_mgr/display_mgr.h
+	*	1592312709	0
+	"	116	0
+	^	133	23
+	.	133	22
+	+	122	33
+	+	120	0
+	+	119	0
+	+	120	0
+	+	132	28
+	+	133	27
+	+	132	23
+	+	133	22
+
+> ~/projects/fusion2/application/common_lib/fusion2.h
+	*	1591284659	0
+	"	5	0
+
+> ~/projects/fusion2/application/display_mgr/giwthermo.c
+	*	1591283185	0
+	"	141	0
+
+> ~/projects/fusion2/application/display_mgr/giw_pkg/giw-0.2.4/src/giwthermo/thermo_simple_example.c
+	*	1591282307	0
+	"	30	0
+
+> ~/projects/fusion2/application/display_mgr/giw_pkg/giw-0.2.4/src/giwthermo/__Tag_List__
+	*	1591280911	0
+	"	11	4
+	.	12	0
+	+	12	0
+
+> ~/assistant_example/assistant.c
+	*	1591217218	0
+	"	1	10
+	^	168	1
+	.	1	10
+	+	168	0
+	+	1	10
+
+> ~/assistant_example/__Tag_List__
+	*	1591217213	0
+	"	3	0
+	.	14	0
+	+	2	0
+	+	14	0
+
+> ~/projects/fusion2/application/display_mgr/log_mgr_thread.c
+	*	1591119752	0
+	"	105	0
+
+> ~/projects/fusion2/application/display_mgr/transient_banner.h
+	*	1591111157	0
+	"	54	10
+	^	67	27
+	.	67	26
+	+	52	0
+	+	55	0
+	+	52	0
+	+	54	0
+	+	52	0
+	+	53	0
+	+	48	67
+	+	49	75
+	+	50	61
+	+	54	0
+	+	41	21
+	+	41	19
+	+	45	18
+	+	44	19
+	+	38	75
+	+	39	23
+	+	41	21
+	+	41	0
+	+	67	26
+
+> ~/projects/fusion2/application/usb_monitor/usb_monitor.c
+	*	1591053008	0
+	"	760	4
+	^	519	96
+	.	519	78
+	+	248	0
+	+	219	0
+	+	483	20
+	+	490	45
+	+	491	31
+	+	490	24
+	+	566	0
+	+	482	0
+	+	483	0
+	+	581	44
+	+	490	25
+	+	489	37
+	+	484	54
+	+	488	0
+	+	484	27
+	+	486	0
+	+	488	0
+	+	487	35
+	+	284	0
+	+	48	1
+	+	283	1
+	+	565	0
+	+	543	92
+	+	580	0
+	+	45	18
+	+	48	0
+	+	283	0
+	+	527	85
+	+	529	0
+	+	527	61
+	+	528	31
+	+	529	0
+	+	543	0
+	+	532	64
+	+	533	0
+	+	543	23
+	+	543	0
+	+	555	0
+	+	543	105
+	+	549	0
+	+	542	80
+	+	549	28
+	+	542	56
+	+	547	42
+	+	549	0
+	+	552	69
+	+	545	84
+	+	542	67
+	+	548	33
+	+	556	24
+	+	558	71
+	+	561	35
+	+	558	32
+	+	492	31
+	+	283	1
+	+	48	1
+	+	542	0
+	+	539	57
+	+	534	64
+	+	541	0
+	+	524	80
+	+	579	26
+	+	580	0
+	+	580	38
+	+	580	0
+	+	579	1
+	+	530	0
+	+	522	57
+	+	531	84
+	+	496	42
+	+	497	1
+	+	498	101
+	+	518	0
+	+	499	38
+	+	501	40
+	+	502	0
+	+	501	81
+	+	507	80
+	+	506	47
+	+	509	0
+	+	511	52
+	+	514	62
+	+	509	0
+	+	508	0
+	+	505	0
+	+	543	52
+	+	545	54
+	+	546	0
+	+	545	90
+	+	553	0
+	+	552	67
+	+	558	58
+	+	559	0
+	+	558	76
+	+	517	43
+	+	496	43
+	+	519	78
+	+	520	0
+	+	519	78
+
+> ~/projects/fusion2/application/display_mgr/log_mgr_thread.h
+	*	1591052929	0
+	"	20	0
+
+> ~/projects/fusion2/application/usb_monitor/makefile
+	*	1590766660	0
+	"	37	83
+	^	37	90
+	.	37	83
+	+	37	83
+	+	37	0
+	+	37	83
+
+> ~/projects/fusion2/application/usb_monitor/__Tag_List__
+	*	1590756088	0
+	"	36	4
+	.	44	0
+	+	45	0
+	+	59	0
+	+	44	0
+
+> ~/projects/fusion2/meta-fusion2/recipes-app-layer/usb-monitor/usb-monitor.bb
+	*	1590755795	0
+	"	6	58
+	^	7	50
+	.	6	58
+	+	6	0
+	+	7	0
+	+	6	58
+
+> ~/projects/fusion2/meta-fusion2/recipes-app-layer/usb-monitor/__Tag_List__
+	*	1590755784	0
 	"	2	0
 	.	1	0
 	+	1	0
 
-> ~/fusion2/application/display_mgr/fusion_workarea_utils.c
-	"	241	11
-	^	246	26
-	.	246	26
-	+	160	39
-	+	156	47
-	+	158	47
-	+	160	47
-	+	83	0
-	+	89	0
-	+	87	0
-	+	83	13
-	+	84	18
-	+	83	17
-	+	64	15
-	+	65	15
-	+	66	15
-	+	67	15
-	+	68	15
-	+	69	15
-	+	70	15
-	+	71	15
-	+	72	15
-	+	73	15
-	+	74	15
-	+	75	15
-	+	76	15
-	+	77	15
-	+	78	15
-	+	79	15
-	+	80	15
-	+	81	15
-	+	83	15
-	+	84	15
-	+	163	0
-	+	162	0
-	+	163	0
-	+	164	0
-	+	163	3
-	+	164	3
-	+	163	61
-	+	164	29
-	+	157	29
-	+	159	26
-	+	163	77
-	+	165	71
-	+	166	53
-	+	86	20
-	+	165	33
-	+	166	35
-	+	149	47
-	+	151	17
-	+	153	17
-	+	151	18
-	+	153	17
-	+	151	17
-	+	156	18
-	+	158	18
-	+	160	18
-	+	165	40
-	+	166	27
-	+	165	26
-	+	166	23
-	+	165	22
-	+	280	0
-	+	280	0
-	+	165	31
-	+	234	0
-	+	235	0
-	+	237	0
-	+	224	33
-	+	230	0
-	+	238	0
-	+	257	50
-	+	259	0
-	+	257	67
-	+	259	0
-	+	259	0
-	+	260	0
-	+	259	35
-	+	259	39
-	+	260	42
-	+	259	36
-	+	259	36
-	+	259	40
-	+	266	0
-	+	257	0
-	+	259	0
-	+	266	0
-	+	266	26
-	+	257	40
-	+	266	57
-	+	258	0
-	+	257	41
-	+	258	26
-	+	266	0
-	+	262	0
-	+	265	0
-	+	122	0
-	+	167	0
-	+	133	0
-	+	134	0
-	+	167	0
-	+	246	26
+> ~/poky-thud/meta/recipes-extended/images/core-image-full-cmdline.bb
+	*	1590703341	0
+	"	8	6
 
-> ~/fusion2/application/display_mgr/gtk_thread.h
-	"	102	0
-	^	37	21
-	.	37	107
-	+	68	9
-	+	69	9
-	+	70	9
-	+	71	9
-	+	72	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	9
-	+	85	0
-	+	82	0
-	+	74	6
-	+	75	6
-	+	76	6
-	+	75	30
-	+	76	89
-	+	77	46
-	+	77	27
-	+	81	0
-	+	77	19
-	+	12	8
-	+	12	0
-	+	17	0
-	+	80	6
-	+	81	6
-	+	57	52
-	+	77	60
-	+	78	56
-	+	77	60
-	+	78	56
-	+	79	46
-	+	78	34
-	+	85	0
-	+	59	21
-	+	59	22
-	+	59	23
-	+	59	23
-	+	59	24
-	+	59	24
-	+	57	25
-	+	59	25
-	+	57	0
-	+	57	0
-	+	62	0
-	+	61	0
-	+	60	0
-	+	81	0
-	+	94	0
-	+	83	0
-	+	82	27
-	+	59	21
-	+	59	22
-	+	59	23
-	+	57	0
-	+	68	41
-	+	50	0
-	+	58	33
-	+	50	39
-	+	51	39
-	+	52	40
-	+	51	39
-	+	50	39
-	+	56	0
-	+	59	0
-	+	54	0
-	+	55	0
-	+	54	31
-	+	55	0
+> ~/projects/fusion2/application/usb_monitor/configuration.c
+	*	1590701313	0
+	"	134	82
+	^	136	52
+	.	133	0
+	+	292	0
+	+	132	0
+	+	133	0
+	+	134	52
+	+	132	0
+	+	134	95
+	+	136	87
+	+	140	77
+	+	136	52
+	+	133	0
+
+> ~/projects/fusion2/application/usb_monitor/configuration.h
+	*	1590701310	0
+	"	54	62
+	^	54	63
+	.	54	62
 	+	54	62
-	+	55	19
-	+	54	36
-	+	55	35
-	+	36	107
-	+	38	22
-	+	37	107
 
-> /usr/share/vim/vim74/doc/motion.txt
-	"	901	15
-
-> ~/fusion2/application/supervisor/supervisor.c
-	"	145	0
-	^	252	45
-	.	252	44
-	+	379	26
-	+	376	0
-	+	401	52
-	+	401	0
-	+	366	0
-	+	375	26
-	+	376	26
-	+	377	26
-	+	378	26
-	+	379	26
-	+	380	0
-	+	370	0
-	+	369	0
-	+	398	0
-	+	397	70
-	+	526	28
-	+	527	23
-	+	529	52
-	+	529	56
-	+	529	0
-	+	527	20
-	+	529	0
-	+	527	22
-	+	695	0
-	+	689	92
-	+	675	0
-	+	676	50
-	+	677	65
-	+	678	61
-	+	679	53
-	+	680	55
-	+	681	54
-	+	682	53
-	+	683	58
-	+	684	59
-	+	685	54
-	+	686	58
-	+	687	57
-	+	688	45
-	+	676	30
-	+	677	30
-	+	678	30
-	+	679	30
-	+	680	30
-	+	681	30
-	+	682	30
-	+	683	30
-	+	684	30
-	+	685	30
-	+	686	30
-	+	687	30
-	+	690	0
-	+	675	15
-	+	675	14
-	+	676	3
-	+	677	3
-	+	678	0
-	+	577	34
-	+	420	0
-	+	422	0
-	+	461	0
-	+	475	0
-	+	476	0
-	+	492	0
-	+	496	0
-	+	413	0
-	+	409	10
-	+	410	10
-	+	411	11
-	+	475	20
-	+	254	0
-	+	255	32
-	+	256	32
-	+	257	32
-	+	258	32
-	+	259	32
-	+	261	32
-	+	262	32
-	+	263	32
-	+	264	32
-	+	260	0
-	+	259	70
-	+	255	61
-	+	256	61
-	+	257	61
-	+	259	61
-	+	260	61
-	+	261	61
-	+	262	61
-	+	263	61
-	+	264	61
-	+	247	16
-	+	243	44
-	+	244	44
-	+	245	44
-	+	248	44
-	+	249	44
-	+	250	44
-	+	251	44
-	+	252	44
-	e	28	10
-	m	45	47
-
-> ~/fusion2/application/display_mgr/fusion_workarea_utils.h
-	"	50	6
-	^	50	7
-	.	50	6
-	+	1	24
-	+	3	0
-	+	3	0
-	+	3	0
-	+	2	6
-	+	68	10
-	+	68	9
-	+	69	0
-	+	68	9
-	+	64	40
-	+	63	0
-	+	4	0
-	+	59	0
-	+	12	0
-	+	61	0
-	+	14	0
-	+	63	0
-	+	63	0
-	+	63	0
-	+	63	0
-	+	63	0
-	+	63	0
-	+	63	67
-	+	63	69
-	+	63	69
-	+	63	74
-	+	63	67
-	+	63	71
-	+	57	6
-	+	63	0
-	+	64	0
-	+	64	97
-	+	64	0
-	+	64	115
-	+	64	19
-	+	64	19
-	+	64	40
-	+	64	24
-	+	10	23
-	+	64	40
-	+	64	79
-	+	64	40
-	+	64	65
-	+	64	40
-	+	64	39
-	+	64	40
-	+	64	55
-	+	65	0
-	+	65	0
-	+	64	72
-	+	47	0
-	+	28	22
-	+	29	22
-	+	30	22
-	+	31	22
-	+	32	22
-	+	33	22
-	+	22	22
-	+	23	23
-	+	24	23
-	+	25	24
-	+	26	25
-	+	51	0
-	+	34	6
-	+	35	6
-	+	36	6
-	+	37	6
-	+	38	6
-	+	39	6
-	+	40	6
-	+	41	6
-	+	42	6
-	+	43	6
-	+	44	6
-	+	45	6
-	+	47	6
-	+	48	6
-	+	49	6
-	+	50	6
-
-> ~/fusion2/application/usecase_mgr/usecase_mgr.c
-	"	348	4
-
-> ~/fusion2/application/usecase_mgr/__Tag_List__
-	"	87	4
-	.	96	0
-	+	52	0
-	+	96	0
-
-> ~/fusion2/application/usecase_mgr/usecase_dir_display_only/uc_display_only.c
-	"	474	0
-	^	589	113
-	.	374	0
-	+	769	82
-	+	772	35
-	+	778	60
-	+	133	0
-	+	82	91
-	+	450	6
-	+	144	0
-	+	144	0
-	+	141	0
-	+	144	0
-	+	145	0
-	+	140	11
-	+	145	0
-	+	155	0
-	+	165	0
-	+	145	9
-	+	155	9
-	+	165	9
-	+	172	9
-	+	187	9
-	+	237	9
-	+	287	26
-	+	288	26
-	+	289	26
-	+	290	26
-	+	291	26
-	+	67	68
-	+	68	49
-	+	311	31
-	+	284	0
-	+	285	31
-	+	277	0
-	+	276	5
-	+	277	47
-	+	302	0
-	+	301	1
-	+	302	25
-	+	309	0
-	+	308	1
-	+	309	22
-	+	311	0
-	+	312	0
-	+	311	46
-	+	312	46
-	+	290	0
-	+	317	46
-	+	339	0
-	+	338	1
-	+	339	48
-	+	237	0
-	+	187	0
-	+	172	0
-	+	165	0
-	+	140	0
-	+	139	0
-	+	145	0
-	+	155	0
-	+	585	0
-	+	350	31
-	+	1	0
-	+	1	0
-	+	591	91
-	+	591	96
-	+	364	15
-	+	591	57
-	+	317	0
-	+	315	0
-	+	591	56
-	+	592	33
-	+	86	15
-	+	331	27
-	+	333	55
-	+	334	40
-	+	592	31
-	+	592	0
-	+	592	30
-	+	592	54
-	+	595	0
-	+	594	62
-	+	595	0
-	+	592	32
-	+	596	0
-	+	592	0
-	+	596	0
-	+	351	35
-	+	364	177
-	+	364	0
-	+	347	55
-	+	374	28
-	+	376	49
-	+	364	15
-	+	347	86
-	+	372	0
-	+	371	1
-	+	372	27
-	+	589	0
-	+	588	1
-	+	589	112
-	+	351	0
-	+	374	0
-	n	98	12
-
-> ~/oe4/fusion2/tmpdir-thud/work/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/display-mgr/1.0-r0/temp/log.do_compile.100728
-	"	25	20
-	^	25	21
-	.	25	21
-	+	25	21
-
-> ~/oe4/fusion2/tmpdir-thud/work/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/display-mgr/1.0-r0/temp/log.do_compile.81148
-	"	185	32
-
-> ~/oe4/fusion2/tmpdir-thud/work/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/display-mgr/1.0-r0/temp/log.do_compile.22960
-	"	4	176
-
-> ~/oe4/fusion2/tmpdir-thud/work/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/display-mgr/1.0-r0/temp/log.do_compile.22728
-	"	4	176
-
-> ~/oe4/fusion2/tmpdir-thud/work/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/display-mgr/1.0-r0/temp/log.do_compile.22259
-	"	197	21
-
-> ~/oe4/fusion2/tmpdir-thud/work/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/display-mgr/1.0-r0/temp/log.do_compile.128381
-	"	4	176
-
-> ~/oe4/fusion2/tmpdir-thud/work/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/display-mgr/1.0-r0/temp/log.do_compile.9558
-	"	209	21
-
-> ~/oe4/fusion2/tmpdir-thud/work/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/display-mgr/1.0-r0/temp/log.do_compile.56463
-	"	209	21
-
-> ~/oe4/fusion2/tmpdir-thud/work/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/display-mgr/1.0-r0/temp/log.do_compile.71912
-	"	525	18
-
-> ~/oe4/fusion2/tmpdir-thud/work/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/display-mgr/1.0-r0/temp/log.do_compile.52753
-	"	212	21
-
-> ~/fusion2/application/display_mgr/fusion_banner_utils.c
-	"	68	0
-	^	67	38
-	.	67	37
-	+	56	0
-	+	57	0
-	+	57	0
-	+	57	0
-	+	57	0
-	+	57	32
-	+	57	0
-	+	63	0
-	+	69	0
-	+	83	45
-	+	119	51
-	+	137	51
-	+	57	43
-	+	63	72
-	+	72	44
-	+	57	37
-	+	63	0
-	+	49	0
-	+	67	0
-	+	68	110
-	+	48	0
-	+	47	26
-	+	67	37
-
-> ~/fusion2/application/display_mgr/q.c
-	"	52	0
-	^	127	74
-	.	71	0
-	+	81	52
-	+	86	54
-	+	96	52
-	+	100	54
-	+	110	52
-	+	118	54
-	+	125	52
-	+	132	54
-	+	135	52
-	+	135	54
-	+	29	50
-	+	31	8
-	+	45	30
-	+	47	16
-	+	52	8
-	+	69	17
-	+	71	21
-	+	83	17
-	+	98	8
-	+	112	17
-	+	113	8
-	+	127	8
-	+	135	17
-	+	31	4
-	+	91	42
-	+	104	47
-	+	121	42
-	+	135	58
-	+	31	32
-	+	31	32
-	+	31	51
-	+	31	31
-	+	45	60
-	+	47	47
-	+	52	37
-	+	69	47
-	+	71	51
-	+	76	29
-	+	83	47
-	+	98	44
-	+	112	47
-	+	113	39
-	+	127	39
-	+	135	46
-	+	31	75
-	+	31	20
-	+	44	26
-	+	64	18
-	+	66	22
-	+	92	37
-	+	107	22
-	+	122	37
-	+	135	22
-	+	31	82
-	+	31	40
-	+	24	13
-	+	31	26
-	+	31	0
-	+	33	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	33	0
-	+	47	0
-	+	53	0
-	+	43	0
-	+	42	0
-	+	53	0
-	+	42	57
-	+	54	59
-	+	68	56
-	+	70	56
-	+	71	59
-	+	81	57
-	+	86	59
-	+	96	57
-	+	100	59
-	+	110	57
-	+	118	59
-	+	125	57
-	+	132	59
-	+	135	57
-	+	135	59
-	+	71	60
-	+	40	32
-	+	45	16
-	+	47	0
-	+	48	0
-	+	47	61
-	+	48	60
-	+	49	0
-	+	135	0
-	+	135	0
-	+	97	21
-	+	95	0
-	+	98	20
-	+	113	20
-	+	127	74
-	+	70	0
-	+	71	0
-
-> ~/fusion2/application/display_mgr/q.h
-	"	41	0
-	^	38	10
-	.	38	9
-	+	34	0
-	+	34	58
-	+	35	25
-	+	36	0
-	+	36	4
-	+	37	16
-	+	38	0
-	+	39	12
-	+	38	23
-	+	43	34
-	+	44	40
-	+	44	18
-	+	44	30
-	+	44	16
-	+	43	0
-	+	43	0
-	+	42	0
-	+	42	0
-	+	44	10
-	+	45	23
+> ~/projects/fusion2/application/display_mgr/backlight_ctlr_thd.h
+	*	1590672651	0
+	"	50	4
+	^	50	5
+	.	50	4
+	+	44	0
 	+	46	42
-	+	47	28
-	+	48	29
 	+	49	0
-	+	49	0
-	+	43	40
-	+	44	39
-	+	45	37
-	+	46	64
-	+	47	29
-	+	48	47
-	+	49	25
-	+	44	42
+	+	53	0
+	+	49	35
+	+	51	62
+	+	34	6
+	+	29	0
+	+	30	0
 	+	34	0
-	+	45	16
-	+	29	0
-	+	24	0
-	+	26	16
-	+	49	0
-	+	41	6
-	+	41	7
+	+	52	32
+	+	39	14
+	+	40	1
+	+	34	0
+	+	42	0
 	+	41	0
-	+	38	9
+	+	33	17
+	+	52	60
+	+	48	0
+	+	45	0
+	+	50	4
 
-> ~/fusion2/meta-fusion2/recipes-app-layer/display-mgr/display-mgr.bb
-	"	24	16
-	^	24	15
-	.	24	16
-	+	111	28
-	+	112	28
-	+	113	40
-	+	114	0
-	+	102	36
-	+	104	36
-	+	106	35
-	+	107	36
-	+	108	36
-	+	109	36
-	+	110	36
-	+	111	36
-	+	112	36
-	+	121	0
-	+	118	8
-	+	118	11
-	+	120	0
-	+	118	18
+> ~/projects/fusion2/application/display_mgr/gtk_thread.h
+	*	1590605462	0
+	"	5	0
+	.	115	0
 	+	115	0
-	+	118	15
-	+	119	31
-	+	99	28
-	+	118	15
-	+	119	25
-	+	118	25
-	+	6	8
-	+	8	0
-	+	6	97
-	+	96	26
-	+	97	26
-	+	100	58
-	+	101	51
-	+	102	51
-	+	104	51
-	+	105	51
-	+	106	51
-	+	107	51
-	+	108	51
-	+	109	51
-	+	110	51
-	+	111	51
-	+	112	51
-	+	113	56
-	+	118	26
-	+	119	26
-	+	57	19
-	+	58	19
-	+	9	0
-	+	96	27
-	+	97	27
-	+	100	59
-	+	101	52
-	+	102	52
-	+	104	52
-	+	105	52
-	+	106	52
-	+	107	52
-	+	108	52
-	+	109	52
-	+	110	52
-	+	111	52
-	+	112	52
-	+	113	57
-	+	118	0
-	+	119	0
-	+	118	0
-	+	119	0
-	+	116	16
-	+	117	16
-	+	118	16
-	+	119	16
-	+	116	16
-	+	118	0
-	+	116	16
-	+	117	16
-	+	29	0
-	+	28	0
-	+	37	26
-	+	103	0
-	+	102	28
-	+	18	0
-	+	20	19
-	+	21	19
-	+	7	48
-	+	6	111
-	+	59	27
-	+	30	72
-	+	31	68
-	+	20	23
-	+	21	23
-	+	22	28
-	+	23	0
-	+	22	36
-	+	20	27
-	+	21	27
-	+	20	27
-	+	21	27
-	+	24	14
-	+	25	0
-	+	24	16
 
-> ~/oe4/fusion2/tmpdir-thud/work/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/display-mgr/1.0-r0/temp/log.do_compile.65825
-	"	480	65
+> ~/projects/fusion2/application/pigpio/PIGPIO/pigpiod_if2.c
+	*	1590515453	0
+	"	816	19
 
-> ~/oe4/fusion2/tmpdir-thud/work/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/display-mgr/1.0-r0/temp/log.do_compile.65632
-	"	200	21
+> ~/projects/fusion2/meta-fusion2/images/fusion2-image.bb.yocto1
+	*	1590424272	0
+	"	80	0
 
-> ~/oe4/fusion2/tmpdir-thud/work/cortexa7t2hf-neon-vfpv4-poky-linux-gnueabi/display-mgr/1.0-r0/temp/log.do_compile.45804
+> ~/projects/fusion2/application/display_mgr/backlight_ctlr_thd.
+	*	1590149192	0
 	"	1	0
+
+> ~/projects/fusion2/application/display_mgr/cntl_board_thread.h
+	*	1590113454	0
+	"	1	0
+
+> ~/projects/fusion2/application/ota/ota_mgr.h
+	*	1590110744	0
+	"	55	0
+
+> ~/projects/fusion2/application/display_mgr/thread_template.c
+	*	1590085029	0
+	"	49	20
+	^	49	21
+	.	49	20
+	+	48	24
+	+	69	20
+	+	72	22
+	+	76	30
+	+	82	47
+	+	91	47
+	+	97	21
+	+	100	30
+	+	124	18
+	+	128	20
+	+	17	37
+	+	49	20
+
+> ~/projects/fusion2/application/display_mgr/thread_template.h
+	*	1590084931	0
+	"	34	25
+	^	34	26
+	.	34	25
+	+	17	34
+	+	30	30
+	+	31	23
+	+	32	13
+	+	25	24
+	+	26	24
+	+	34	25

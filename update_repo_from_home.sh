@@ -4,7 +4,7 @@
 
 #### .vim
 cp -a ~/.vim/* dot_vim/.
-mv dot_vim/.netrwhist dot_vim/dot_netrwhist
+mv ../.vim/.netrwhist dot_vim/dot_netrwhist
 
 #### .vimrc
 cp ~/.vimrc dot_vimrc
